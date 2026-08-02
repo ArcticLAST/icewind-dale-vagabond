@@ -38,34 +38,41 @@ notes/            design decisions, audits, packaging notes
 
 Covers **201/201** unnamed creature types and **65/65** magic items on the adventure roster.
 
-## Backing up
+## Backing up (after you change anything in Foundry)
 
-Foundry is the live copy; this repo is the backup. Before committing:
+Foundry holds the live copy; this repo is the backup. To save changes:
 
-```powershell
-.\sync-module.ps1        # copies the live module into module/
-git add -A
-git commit -m "…"
-git push
-```
+1. **Shut the Foundry world down.** Not optional — compendium packs are LevelDB and buffer
+   writes in memory, flushing to disk only on a clean world shutdown. Sync with the world
+   open and you can capture a half-written database.
+2. **Open PowerShell** and paste this in one line:
 
-**Shut Foundry down first.** Compendium packs are LevelDB and buffer writes in memory — they
-only flush to disk on a clean world shutdown, so copying a pack while the world is open can
-capture a half-written database.
+   ```powershell
+   cd "D:\claude projects\Icewind Dale Vagabond"; .\sync-module.ps1; git add -A; git commit -m "what changed"; git push
+   ```
+
+`sync-module.ps1` copies the live module out of Foundry's data folder into `module/` here,
+then git saves and uploads it.
 
 ## Restoring, or setting up on a new machine
 
-```powershell
-git clone <your-repo-url>
-cd "Icewind Dale Vagabond"
-.\sync-module.ps1 -Restore      # copies module/ into this machine's Foundry
-```
+1. Install Foundry and the **Vagabond** system (5.4.1+).
+2. **Open PowerShell** and run:
 
-Then in Foundry: enable the module, open **Compendiums → Icewind Dale — Adventures →
-*Icewind Dale (Complete)*** and import. All 436 actors, 74 items, 11 scenes, 10 tables,
-3 journals and 31 folders land with folder structure intact.
+   ```powershell
+   git clone https://github.com/ArcticLAST/icewind-dale-vagabond.git
+   cd icewind-dale-vagabond
+   .\sync-module.ps1 -Restore
+   ```
 
-Requires the **Vagabond** system, 5.4.1 or later.
+   That last line copies `module/` into that machine's Foundry data folder.
+3. Launch Foundry, open your world, and enable the module in
+   **Settings -> Manage Modules**. The world reloads.
+4. Open **Compendiums -> Icewind Dale - Adventures -> *Icewind Dale (Complete)*** and click
+   **Import**.
+
+All 436 actors, 74 items, 11 scenes, 10 tables, 3 journals and 31 folders land with folder
+structure intact.
 
 ## Regenerating creatures from source
 
