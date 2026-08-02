@@ -11,6 +11,10 @@ Thumbs.db
 desktop.ini
 .DS_Store
 
+# Build output - regenerate with `py build-release.py`. Not committed: it's a
+# 38 MB duplicate of module/, which would double the repo on every release.
+dist/
+
 # Scratch
 *.tmp
 scratch/

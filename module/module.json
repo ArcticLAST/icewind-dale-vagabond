@@ -1,7 +1,7 @@
 {
   "id": "icewind-dale-vagabond",
-  "title": "Icewind Dale: Rime of the Frostmaiden — Vagabond Conversion",
-  "description": "<p>A complete conversion of <em>Icewind Dale: Rime of the Frostmaiden</em> for the Vagabond system.</p><ul><li><strong>436 actors</strong> — every creature type on the adventure roster, plus 211 named NPCs filed by chapter.</li><li><strong>74 magic items</strong> — built to Vagabond's Relic conventions and priced from the official Powers table.</li><li><strong>Quest, encounter and reference journals</strong>, and roll tables for encounters and weather.</li></ul><p>Import the <strong>Icewind Dale (Complete)</strong> adventure from the Adventures compendium to drop the whole thing into any world with its folder structure intact. Contains no maps or published text.</p>",
+  "title": "Icewind Dale: Rime of the Frostmaiden - Vagabond Conversion",
+  "description": "<p>A complete conversion of <em>Icewind Dale: Rime of the Frostmaiden</em> for the Vagabond system.</p><ul><li><strong>436 actors</strong> - every creature type on the adventure roster, plus 211 named NPCs filed by chapter.</li><li><strong>74 magic items</strong> - built to Vagabond's Relic conventions and priced from the official Powers table.</li><li><strong>11 encounter maps</strong>, 10 roll tables and 3 reference journals.</li></ul><p>Import the <strong>Icewind Dale (Complete)</strong> adventure from the Adventures compendium to drop the whole thing into any world with its folder structure intact. Contains no published adventure text.</p>",
   "version": "1.0.0",
   "compatibility": {
     "minimum": "12",
@@ -18,10 +18,13 @@
     ]
   },
   "authors": [{ "name": "Icewind Dale Vagabond conversion" }],
+  "url": "https://github.com/ArcticLAST/icewind-dale-vagabond",
+  "manifest": "https://github.com/ArcticLAST/icewind-dale-vagabond/releases/latest/download/module.json",
+  "download": "https://github.com/ArcticLAST/icewind-dale-vagabond/releases/latest/download/module.zip",
   "packs": [
     {
       "name": "idrotf-adventure",
-      "label": "Icewind Dale — Adventures",
+      "label": "Icewind Dale - Adventures",
       "path": "packs/idrotf-adventure",
       "type": "Adventure",
       "system": "vagabond",
@@ -29,7 +32,7 @@
     },
     {
       "name": "idrotf-scenes",
-      "label": "Icewind Dale — Encounter Maps",
+      "label": "Icewind Dale - Encounter Maps",
       "path": "packs/idrotf-scenes",
       "type": "Scene",
       "system": "vagabond",
@@ -37,7 +40,7 @@
     },
     {
       "name": "idrotf-monsters",
-      "label": "Icewind Dale — Monsters",
+      "label": "Icewind Dale - Monsters",
       "path": "packs/idrotf-monsters",
       "type": "Actor",
       "system": "vagabond",
@@ -45,7 +48,7 @@
     },
     {
       "name": "idrotf-npcs",
-      "label": "Icewind Dale — NPCs",
+      "label": "Icewind Dale - NPCs",
       "path": "packs/idrotf-npcs",
       "type": "Actor",
       "system": "vagabond",
@@ -53,7 +56,7 @@
     },
     {
       "name": "idrotf-items",
-      "label": "Icewind Dale — Magic Items",
+      "label": "Icewind Dale - Magic Items",
       "path": "packs/idrotf-items",
       "type": "Item",
       "system": "vagabond",
@@ -61,7 +64,7 @@
     },
     {
       "name": "idrotf-journals",
-      "label": "Icewind Dale — Reference",
+      "label": "Icewind Dale - Reference",
       "path": "packs/idrotf-journals",
       "type": "JournalEntry",
       "system": "vagabond",
@@ -69,7 +72,7 @@
     },
     {
       "name": "idrotf-tables",
-      "label": "Icewind Dale — Tables",
+      "label": "Icewind Dale - Tables",
       "path": "packs/idrotf-tables",
       "type": "RollTable",
       "system": "vagabond",
