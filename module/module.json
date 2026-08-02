@@ -1,0 +1,95 @@
+{
+  "id": "icewind-dale-vagabond",
+  "title": "Icewind Dale: Rime of the Frostmaiden — Vagabond Conversion",
+  "description": "<p>A complete conversion of <em>Icewind Dale: Rime of the Frostmaiden</em> for the Vagabond system.</p><ul><li><strong>436 actors</strong> — every creature type on the adventure roster, plus 211 named NPCs filed by chapter.</li><li><strong>74 magic items</strong> — built to Vagabond's Relic conventions and priced from the official Powers table.</li><li><strong>Quest, encounter and reference journals</strong>, and roll tables for encounters and weather.</li></ul><p>Import the <strong>Icewind Dale (Complete)</strong> adventure from the Adventures compendium to drop the whole thing into any world with its folder structure intact. Contains no maps or published text.</p>",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13",
+    "maximum": ""
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "vagabond",
+        "type": "system",
+        "compatibility": { "minimum": "5.4.1" }
+      }
+    ]
+  },
+  "authors": [{ "name": "Icewind Dale Vagabond conversion" }],
+  "packs": [
+    {
+      "name": "idrotf-adventure",
+      "label": "Icewind Dale — Adventures",
+      "path": "packs/idrotf-adventure",
+      "type": "Adventure",
+      "system": "vagabond",
+      "ownership": { "PLAYER": "NONE", "ASSISTANT": "OWNER", "GAMEMASTER": "OWNER" }
+    },
+    {
+      "name": "idrotf-scenes",
+      "label": "Icewind Dale — Encounter Maps",
+      "path": "packs/idrotf-scenes",
+      "type": "Scene",
+      "system": "vagabond",
+      "ownership": { "PLAYER": "NONE", "ASSISTANT": "OBSERVER", "GAMEMASTER": "OWNER" }
+    },
+    {
+      "name": "idrotf-monsters",
+      "label": "Icewind Dale — Monsters",
+      "path": "packs/idrotf-monsters",
+      "type": "Actor",
+      "system": "vagabond",
+      "ownership": { "PLAYER": "NONE", "ASSISTANT": "OBSERVER", "GAMEMASTER": "OWNER" }
+    },
+    {
+      "name": "idrotf-npcs",
+      "label": "Icewind Dale — NPCs",
+      "path": "packs/idrotf-npcs",
+      "type": "Actor",
+      "system": "vagabond",
+      "ownership": { "PLAYER": "NONE", "ASSISTANT": "OBSERVER", "GAMEMASTER": "OWNER" }
+    },
+    {
+      "name": "idrotf-items",
+      "label": "Icewind Dale — Magic Items",
+      "path": "packs/idrotf-items",
+      "type": "Item",
+      "system": "vagabond",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OBSERVER", "GAMEMASTER": "OWNER" }
+    },
+    {
+      "name": "idrotf-journals",
+      "label": "Icewind Dale — Reference",
+      "path": "packs/idrotf-journals",
+      "type": "JournalEntry",
+      "system": "vagabond",
+      "ownership": { "PLAYER": "NONE", "ASSISTANT": "OBSERVER", "GAMEMASTER": "OWNER" }
+    },
+    {
+      "name": "idrotf-tables",
+      "label": "Icewind Dale — Tables",
+      "path": "packs/idrotf-tables",
+      "type": "RollTable",
+      "system": "vagabond",
+      "ownership": { "PLAYER": "NONE", "ASSISTANT": "OBSERVER", "GAMEMASTER": "OWNER" }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Icewind Dale (Vagabond)",
+      "sorting": "m",
+      "color": "#3f6f8f",
+      "packs": [
+        "idrotf-adventure",
+        "idrotf-scenes",
+        "idrotf-monsters",
+        "idrotf-npcs",
+        "idrotf-items",
+        "idrotf-journals",
+        "idrotf-tables"
+      ]
+    }
+  ]
+}

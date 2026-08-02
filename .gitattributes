@@ -1,0 +1,19 @@
+# NOTE: in .gitattributes the LAST matching pattern wins, so the catch-all must come
+# FIRST and the binary overrides after it. Getting this backwards silently CRLF-corrupts
+# the LevelDB files (CURRENT grows by one byte) and the packs will not open on restore.
+
+* text=auto
+
+# The module is a build artifact - preserve it byte-for-byte so a clone restores exactly.
+# CRITICAL for packs/: those are LevelDB, and a single CRLF added to CURRENT stops them opening.
+module/** -text
+module/packs/** -text -diff -merge
+
+# Binary assets
+*.webp -text -diff
+*.png  -text -diff
+*.jpg  -text -diff
+*.jpeg -text -diff
+
+# Windows scripts want CRLF in the working copy
+*.ps1 text eol=crlf

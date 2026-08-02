@@ -1,0 +1,16 @@
+# Python pipeline
+__pycache__/
+*.py[cod]
+
+# LevelDB runtime locks — recreated by Foundry, must never be committed
+module/packs/*/LOCK
+module/packs/*/LOG*
+
+# OS cruft
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Scratch
+*.tmp
+scratch/
