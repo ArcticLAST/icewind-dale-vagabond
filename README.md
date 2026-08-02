@@ -65,6 +65,16 @@ then git saves and uploads it.
    .\sync-module.ps1 -Restore
    ```
 
+   > **If that last line errors with "running scripts is disabled on this system"** - that's
+   > Windows' default, not a problem with the script. Run this once, answer `Y`, and retry:
+   >
+   > ```powershell
+   > Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+   > ```
+   >
+   > `RemoteSigned` lets local scripts run while still requiring downloaded ones to be signed.
+   > It needs no admin rights and applies only to your user account.
+
    That last line copies `module/` into that machine's Foundry data folder.
 3. Launch Foundry, open your world, and enable the module in
    **Settings -> Manage Modules**. The world reloads.
