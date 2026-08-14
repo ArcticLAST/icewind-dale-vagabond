@@ -1,8 +1,8 @@
 {
   "id": "icewind-dale-vagabond",
   "title": "Icewind Dale: Rime of the Frostmaiden - Vagabond Conversion",
-  "description": "<p>A complete conversion of <em>Icewind Dale: Rime of the Frostmaiden</em> for the Vagabond system.</p><ul><li><strong>436 actors</strong> - every creature type on the adventure roster, plus 211 named NPCs filed by chapter.</li><li><strong>74 magic items</strong> - built to Vagabond's Relic conventions and priced from the official Powers table.</li><li><strong>11 encounter maps</strong>, 10 roll tables and 3 reference journals.</li></ul><p>Import the <strong>Icewind Dale (Complete)</strong> adventure from the Adventures compendium to drop the whole thing into any world with its folder structure intact. Contains no published adventure text.</p>",
-  "version": "1.0.0",
+  "description": "<p>A complete conversion of <em>Icewind Dale: Rime of the Frostmaiden</em> for the Vagabond system.</p><ul><li><strong>436 actors</strong> - every creature type on the adventure roster, plus 211 named NPCs filed by chapter.</li><li><strong>74 magic items</strong> - built to Vagabond's Relic conventions and priced from the official Powers table.</li><li><strong>11 encounter maps</strong>, 10 roll tables and 3 reference journals.</li></ul><p>Import the <strong>Icewind Dale (Complete)</strong> adventure from the Adventures compendium to drop the whole thing into any world with its folder structure intact. Contains no published adventure text.</p><p><strong>Note:</strong> this module also repairs a Vagabond bug in which ActiveEffects stored under <code>system.changes</code> are never applied, leaving ancestry traits, class features, perks, weapon properties and all relic Powers inert. The patch only ever fills an empty <code>changes</code> array, so it does nothing once the system fixes this itself.</p>",
+  "version": "1.1.0",
   "compatibility": {
     "minimum": "12",
     "verified": "13",
@@ -18,6 +18,7 @@
     ]
   },
   "authors": [{ "name": "Icewind Dale Vagabond conversion" }],
+  "esmodules": ["scripts/effect-changes-shim.mjs"],
   "url": "https://github.com/ArcticLAST/icewind-dale-vagabond",
   "manifest": "https://github.com/ArcticLAST/icewind-dale-vagabond/releases/latest/download/module.json",
   "download": "https://github.com/ArcticLAST/icewind-dale-vagabond/releases/latest/download/module.zip",

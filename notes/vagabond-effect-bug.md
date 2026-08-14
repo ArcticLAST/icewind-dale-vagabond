@@ -1,7 +1,16 @@
 # Vagabond system bug: Active Effects never apply
 
-**Status: diagnosed, fixed, verified.** Fix ships as the `vagabond-effect-fix` module
-(`module-effect-fix/` in this repo).
+**Status: diagnosed, fixed, verified.** The fix is **bundled into the Icewind Dale module**
+(`module/scripts/effect-changes-shim.mjs`, declared as an `esmodule` in its `module.json`).
+
+It briefly lived as a standalone `vagabond-effect-fix` module. That is architecturally tidier -
+a global monkeypatch really shouldn't ride along with content - but it meant the Forge install
+needed a second manifest, and an adventure whose relic Powers all silently do nothing unless you
+remember a second module is a worse failure mode than an unexpected patch. Bundled wins on
+reliability here, since the audience is one GM and their players.
+
+The bundled shim stands down automatically if the standalone module is also active, so both can
+coexist during a migration.
 
 Found while investigating a report that the **Secret of Mana** perk didn't increase max mana.
 It isn't a perk problem - almost nothing in the system applies.
