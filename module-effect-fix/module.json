@@ -1,0 +1,14 @@
+{
+  "id": "vagabond-effect-fix",
+  "title": "Vagabond - Active Effect Fix",
+  "description": "<p>Repairs Active Effects in the Vagabond system.</p><p>Vagabond's bundled content stores effect changes under <code>system.changes</code>, but Foundry's effect pipeline only reads the native <code>changes</code> array - which is empty on every one of them. The result is that ancestry traits, class features, perks, weapon properties and relic Powers silently do nothing.</p><p>This module copies <code>system.changes</code> into <code>changes</code> during data preparation, and only ever fills an empty array, so it stops having any effect the moment the system fixes this itself.</p>",
+  "version": "1.0.0",
+  "compatibility": { "minimum": "12", "verified": "13" },
+  "relationships": {
+    "systems": [
+      { "id": "vagabond", "type": "system", "compatibility": { "minimum": "5.0.0" } }
+    ]
+  },
+  "authors": [{ "name": "Icewind Dale Vagabond conversion" }],
+  "esmodules": ["scripts/effect-changes-shim.mjs"]
+}

@@ -18,3 +18,7 @@ dist/
 # Scratch
 *.tmp
 scratch/
+
+# stray build artifacts at repo root (belongs in dist/)
+/module.zip
+/module.json
