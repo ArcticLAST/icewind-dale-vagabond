@@ -1,0 +1,45 @@
+{
+  "_id": "nJj0umZ6my6STDUQ",
+  "_key": "!items!nJj0umZ6my6STDUQ",
+  "name": "Laser Rifle",
+  "folder": "jHOB7Xle8qhC5Lqp",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "type": "weapon",
+  "img": "systems/vagabond-rpg/assets/icons/broadsword.svg",
+  "system": {
+    "description": "<p><em>Lore: Relic Rifle</em></p><p>Two-handed, absurdly precise, and utterly unrepairable this side of the stars. It has the following Powers:</p><ul><li><strong>Energy Lance:</strong> Requires a charged Energy Cell. Firing expends 1 of the cell's 5 charges.</li></ul><p>Value: 3000g</p>",
+    "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+    "quantity": 1,
+    "slots": 2,
+    "value": 300000,
+    "equipped": false,
+    "types": {
+      "melee": false,
+      "brawl": false,
+      "finesse": false,
+      "ranged": true
+    },
+    "properties": {
+      "cleave": false,
+      "defense": false,
+      "grapple": false,
+      "keen": true,
+      "long": false,
+      "thrown": false,
+      "vicious": false
+    },
+    "range": "far",
+    "grip": "2h",
+    "damage": "d8",
+    "twoHanded": false,
+    "metal": "",
+    "bonus": 0,
+    "crude": false,
+    "relic": true
+  }
+}

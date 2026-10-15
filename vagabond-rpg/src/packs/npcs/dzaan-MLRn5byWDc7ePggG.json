@@ -1,0 +1,249 @@
+{
+  "_id": "MLRn5byWDc7ePggG",
+  "_key": "!actors!MLRn5byWDc7ePggG",
+  "name": "Dzaan",
+  "type": "npc",
+  "img": "modules/icewind-dale-vagabond-rpg/assets/tokens/Dzaan.webp",
+  "system": {
+    "hd": 4,
+    "tl": 1.2,
+    "attributes": {
+      "hp": {
+        "value": 18,
+        "max": 18
+      },
+      "armor": 0,
+      "armorTag": "as Unarmored",
+      "morale": 8,
+      "speed": {
+        "value": 30,
+        "types": ""
+      },
+      "travel": 0
+    },
+    "cargo": {
+      "max": 0
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "artificial",
+      "subtype": "",
+      "zone": "backline",
+      "appearing": "1",
+      "senses": "",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion), Chapter 2: Icewind Dale",
+      "description": "<p><em>Red Wizard of Thay, dead before the adventure begins. The book gives him the same stat block as his simulacrum, at roughly double the hit points - raise his HD if the party somehow meets the living man.</em></p><p><strong>Stat block:</strong> Dzaan's Simulacrum</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "I5ZFSUQYXbgkThsW",
+      "name": "Shocking Grasp",
+      "type": "action",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
+      "system": {
+        "description": "<p>4 (d8) Target can't take Reactions until the start of its next Turn.</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Touch",
+        "damage": "d8",
+        "average": 4,
+        "damageType": "shock",
+        "save": "",
+        "recharge": "",
+        "sort": 0,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!MLRn5byWDc7ePggG.I5ZFSUQYXbgkThsW"
+    },
+    {
+      "_id": "nCUhTICh40qNdOes",
+      "name": "Acid Splash",
+      "type": "action",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
+      "system": {
+        "description": "<p>7 (2d6)</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Remote | Reflex",
+        "damage": "2d6",
+        "average": 7,
+        "damageType": "acid",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!MLRn5byWDc7ePggG.nCUhTICh40qNdOes"
+    },
+    {
+      "_id": "QWT1xvPsygmhLh76",
+      "name": "Magic Missile",
+      "type": "action",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
+      "system": {
+        "description": "<p>3 (d4+1) Always hits.</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Remote",
+        "damage": "d4+1",
+        "average": 3,
+        "damageType": "magic",
+        "save": "",
+        "recharge": "2/Day",
+        "sort": 2,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!MLRn5byWDc7ePggG.QWT1xvPsygmhLh76"
+    }
+  ],
+  "effects": [],
+  "folder": "HOFt9lKTqVzEvxmk",
+  "sort": 1600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "icewind-dale-vagabond-rpg": {
+      "namedNpc": true,
+      "statBlock": "Dzaan's Simulacrum",
+      "chapter": "Chapter 2: Icewind Dale"
+    }
+  },
+  "prototypeToken": {
+    "name": "Dzaan",
+    "displayName": 30,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/icewind-dale-vagabond-rpg/assets/tokens/Dzaan.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 0,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  }
+}

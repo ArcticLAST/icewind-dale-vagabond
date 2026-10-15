@@ -1,0 +1,306 @@
+{
+  "name": "Encounters — Open Tundra",
+  "formula": "1d12",
+  "description": "Roll once per watch crossing Icewind Dale proper. Harsher than the Ten-Towns table.",
+  "folder": null,
+  "img": "modules/icewind-dale-vagabond-rpg/assets/item-icons/minerals.png",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "type": "text",
+      "name": "Nothing but wind",
+      "description": "",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "JSRRGv94RKGAc7lc",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!7kDIwnqIDBxzU05O.JSRRGv94RKGAc7lc"
+    },
+    {
+      "type": "text",
+      "name": "1d4 × Winter Wolf",
+      "description": "Hunting as a pack, and coordinating.",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "oXIV3Owdaiikwzmo",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!7kDIwnqIDBxzU05O.oXIV3Owdaiikwzmo"
+    },
+    {
+      "type": "text",
+      "name": "2d4 × Orc",
+      "description": "An Icewind Dale warband, half-frozen and furious.",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "c6iX6FmGEIEDARNt",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!7kDIwnqIDBxzU05O.c6iX6FmGEIEDARNt"
+    },
+    {
+      "type": "text",
+      "name": "1 × Abominable Yeti",
+      "description": "Serious threat. Consider a chase instead of a fight.",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "GV4TtWJ2ic0vocnP",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!7kDIwnqIDBxzU05O.GV4TtWJ2ic0vocnP"
+    },
+    {
+      "type": "text",
+      "name": "1d3 × Ice Troll",
+      "description": "",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "G5rsoNVM8ftALShI",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!7kDIwnqIDBxzU05O.G5rsoNVM8ftALShI"
+    },
+    {
+      "type": "text",
+      "name": "1 × Frost Giant",
+      "description": "Hunting, or heading to Jarlmoot.",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "w0bT5RgrrIIEy6kq",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!7kDIwnqIDBxzU05O.w0bT5RgrrIIEy6kq"
+    },
+    {
+      "type": "text",
+      "name": "2d6 × Goblin, Warrior from Karkolohk",
+      "description": "",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "2a0jWXcD8jIiFMvV",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!7kDIwnqIDBxzU05O.2a0jWXcD8jIiFMvV"
+    },
+    {
+      "type": "text",
+      "name": "1 × Snowy Owlbear",
+      "description": "Territorial. Fights until badly hurt, then flees.",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "Mpm55mH0n54PWz9A",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!7kDIwnqIDBxzU05O.Mpm55mH0n54PWz9A"
+    },
+    {
+      "type": "text",
+      "name": "1d2 × Verbeeg Longstrider",
+      "description": "",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "CrR9ikvC9ZVowNWh",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!7kDIwnqIDBxzU05O.CrR9ikvC9ZVowNWh"
+    },
+    {
+      "type": "text",
+      "name": "1 × Mastodon with 1d4 × Tribal Warrior",
+      "description": "A Reghed hunting party and their mount.",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_id": "ykgJQBwKyaXfKNXm",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!7kDIwnqIDBxzU05O.ykgJQBwKyaXfKNXm"
+    },
+    {
+      "type": "text",
+      "name": "1 × Young Remorhaz",
+      "description": "Erupts from beneath the snow. No warning.",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "_id": "6yN1Z0KQnescVwU1",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!7kDIwnqIDBxzU05O.6yN1Z0KQnescVwU1"
+    },
+    {
+      "type": "text",
+      "name": "1 × Arveiaturace, passing overhead",
+      "description": "She does not stop unless provoked. If she does stop, run.",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "_id": "MdXMC7eXbQi0ZZlj",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!7kDIwnqIDBxzU05O.MdXMC7eXbQi0ZZlj"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_id": "7kDIwnqIDBxzU05O",
+  "_key": "!tables!7kDIwnqIDBxzU05O"
+}

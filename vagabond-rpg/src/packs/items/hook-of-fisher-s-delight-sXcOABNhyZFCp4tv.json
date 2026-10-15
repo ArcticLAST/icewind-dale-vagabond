@@ -1,0 +1,38 @@
+{
+  "_id": "sXcOABNhyZFCp4tv",
+  "_key": "!items!sXcOABNhyZFCp4tv",
+  "name": "Hook of Fisher's Delight",
+  "folder": "HRAT1cqrSPRgle2E",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "type": "gear",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
+  "system": {
+    "description": "<p><em>Lore: Relic Hook</em></p><p><em>Dockside anglers in Termalaine swear by the hook, even the ones who've been walloped by an indignant flying fish for their trouble.</em></p><p>A tiny silver fishhook with a gold feather tied to it. Tie it to a line and immerse it in at least a 10-foot cube of water. At the end of each uninterrupted Hour of immersion, roll a d6 - on a 6, a floppy 6-inch magical fish appears on the hook. Roll or choose on the table below. Once it conjures a fish, it can't do so again until the next dawn.</p><table><tbody><tr><th>d8</th><th>Fish</th><th>Effect</th></tr><tr><td>1-4</td><td>Green, copper bands</td><td>A day's nourishment for one creature if eaten within 24 Hours, then it rots.</td></tr><tr><td>5-6</td><td>Yellow, black stripes</td><td>Thrown up to Far at a Being it can see: pass [Reflex] or be knocked Prone. The fish then vanishes.</td></tr><tr><td>7</td><td>Blue, white bands</td><td>Sprouts wings and sings sweetly, following you around for 2d4 Hours or until it drops to 0 HP (HD: 1, 4 HP, Fly 30').</td></tr><tr><td>8</td><td>Gold, silver stripes</td><td>A day's nourishment and 2d10 temporary HP if eaten within 24 Hours, then it rots.</td></tr></tbody></table><p>It has the following Powers:</p><ul><li><strong>Fisher's Luck:</strong> At the end of each uninterrupted Hour immersed in at least a 10-foot cube of water, roll d6. On a 6 it lands a fish large enough to feed 1d4 Beings; on a 1 it lands something that objects.</li></ul><p>Value: 500g</p>",
+    "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+    "quantity": 1,
+    "value": 50000,
+    "equipped": false,
+    "slots": 1,
+    "category": "relic",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": "",
+      "damageType": ""
+    },
+    "contents": [],
+    "wealth": 0
+  }
+}

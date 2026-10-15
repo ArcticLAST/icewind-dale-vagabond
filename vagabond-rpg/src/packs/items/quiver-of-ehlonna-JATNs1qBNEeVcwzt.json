@@ -1,0 +1,38 @@
+{
+  "_id": "JATNs1qBNEeVcwzt",
+  "_key": "!items!JATNs1qBNEeVcwzt",
+  "name": "Quiver of Ehlonna",
+  "folder": "HRAT1cqrSPRgle2E",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "type": "gear",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
+  "system": {
+    "description": "<p><em>Lore: Relic</em></p><p>A three-compartment quiver, each compartment far deeper than the outside of it suggests.</p><ul><li><strong>Holding 3:</strong> Occupies 1 Inventory Slot, but can hold 3 Slots of Items without counting against the carrier's Inventory Slots.</li></ul><p>Value: 1000g</p>",
+    "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+    "quantity": 1,
+    "value": 100000,
+    "equipped": false,
+    "slots": 1,
+    "category": "relic",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 3,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": "",
+      "damageType": ""
+    },
+    "contents": [],
+    "wealth": 0
+  }
+}

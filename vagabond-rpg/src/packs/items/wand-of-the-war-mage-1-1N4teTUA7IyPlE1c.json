@@ -1,0 +1,38 @@
+{
+  "_id": "1N4teTUA7IyPlE1c",
+  "_key": "!items!1N4teTUA7IyPlE1c",
+  "name": "Wand of the War Mage +1",
+  "folder": "TJXiEQwW45323Owm",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "type": "gear",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
+  "system": {
+    "description": "<p><em>Lore: Relic Wand (Bound)</em></p><p>A slender rod of blackened ash, warm to the touch when a spell is on the wielder's lips. It has the following Powers:</p><ul><li><strong>(+1) Trinket:</strong> Deals an extra +1 Spell damage, and the wielder ignores half-Cover when Casting.</li></ul><p>Value: 200g</p>",
+    "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+    "quantity": 1,
+    "value": 20000,
+    "equipped": false,
+    "slots": 1,
+    "category": "relic",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": "",
+      "damageType": ""
+    },
+    "contents": [],
+    "wealth": 0
+  }
+}

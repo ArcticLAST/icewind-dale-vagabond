@@ -1,0 +1,38 @@
+{
+  "_id": "jZHJSp5tNcM1h821",
+  "_key": "!items!jZHJSp5tNcM1h821",
+  "name": "Alchemy Jug",
+  "folder": "HRAT1cqrSPRgle2E",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "type": "gear",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
+  "system": {
+    "description": "<p><em>Lore: Relic Jug</em></p><p>A ceramic jug that produces whatever it feels like producing, within reason. It has the following Powers:</p><ul><li><strong>Endless Draught:</strong> Once per Rest, name a liquid - water, ale, oil, honey, vinegar, wine, or mayonnaise - and the jug fills with it.</li></ul><p>Value: 1000g</p>",
+    "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+    "quantity": 1,
+    "value": 100000,
+    "equipped": false,
+    "slots": 1,
+    "category": "relic",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": "",
+      "damageType": ""
+    },
+    "contents": [],
+    "wealth": 0
+  }
+}

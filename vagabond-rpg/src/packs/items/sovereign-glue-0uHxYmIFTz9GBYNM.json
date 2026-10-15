@@ -1,0 +1,38 @@
+{
+  "_id": "0uHxYmIFTz9GBYNM",
+  "_key": "!items!0uHxYmIFTz9GBYNM",
+  "name": "Sovereign Glue",
+  "folder": "HRAT1cqrSPRgle2E",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "type": "gear",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
+  "system": {
+    "description": "<p><em>Lore: Fabled Relic Vial (Consumable)</em></p><p>One ounce. There is no second ounce, and no known solvent short of Alkahest. It has the following Powers:</p><ul><li><strong>Sovereign Bond:</strong> Permanently bonds two objects. Only Alkahest will separate them.</li></ul><p>Value: 10000g</p>",
+    "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+    "quantity": 1,
+    "value": 1000000,
+    "equipped": false,
+    "slots": 1,
+    "category": "relic",
+    "alchemicalType": "",
+    "consumable": true,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": "",
+      "damageType": ""
+    },
+    "contents": [],
+    "wealth": 0
+  }
+}

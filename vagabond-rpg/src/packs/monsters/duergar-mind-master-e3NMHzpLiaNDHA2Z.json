@@ -1,0 +1,276 @@
+{
+  "_id": "e3NMHzpLiaNDHA2Z",
+  "_key": "!actors!e3NMHzpLiaNDHA2Z",
+  "name": "Duergar Mind Master",
+  "type": "npc",
+  "img": "modules/icewind-dale-vagabond-rpg/assets/tokens/Duergar_Mind_Master.webp",
+  "system": {
+    "hd": 5,
+    "tl": 2.3,
+    "attributes": {
+      "hp": {
+        "value": 22,
+        "max": 22
+      },
+      "armor": 1,
+      "armorTag": "as Leather",
+      "morale": null,
+      "speed": {
+        "value": 25,
+        "types": ""
+      },
+      "travel": 0
+    },
+    "cargo": {
+      "max": 0
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "humanlike",
+      "subtype": "",
+      "zone": "midline",
+      "appearing": "1",
+      "senses": "Darksight",
+      "immune": "Poison",
+      "weak": "",
+      "statusImmunities": "Charmed, Confused",
+      "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+      "description": "<p>A duergar psion whose dagger hurts less than the thoughts it leaves behind.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "GhQzezvjPIVvgEJw",
+      "name": "Combo",
+      "type": "action",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
+      "system": {
+        "description": "<p>2×Mind-Poison Dagger</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 0,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!e3NMHzpLiaNDHA2Z.GhQzezvjPIVvgEJw"
+    },
+    {
+      "_id": "xY68eb4cAqc7Y0ov",
+      "name": "Mind-Poison Dagger",
+      "type": "action",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
+      "system": {
+        "description": "<p>3 (d4+1) Psychic damage.</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "d4+1",
+        "average": 3,
+        "damageType": "magic",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!e3NMHzpLiaNDHA2Z.xY68eb4cAqc7Y0ov"
+    },
+    {
+      "_id": "wZ2qyn7yIApOCaYs",
+      "name": "Mind Mastery",
+      "type": "action",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
+      "system": {
+        "description": "<p>(1/Turn) Target within Far must pass [Will] or the duergar forces it to Attack another Being it can see, or Move up to 10' in a direction of the duergar's choice, on its Reaction.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "will",
+        "recharge": "",
+        "sort": 2,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!e3NMHzpLiaNDHA2Z.wZ2qyn7yIApOCaYs"
+    },
+    {
+      "_id": "1vZsSYNalXAwL5fe",
+      "name": "Vanish",
+      "type": "action",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
+      "system": {
+        "description": "<p>(Recharge Cd6) The duergar is Invisible for up to 1 Hour, until it Attacks, Casts, or its Focus breaks.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 3,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!e3NMHzpLiaNDHA2Z.1vZsSYNalXAwL5fe"
+    }
+  ],
+  "effects": [],
+  "folder": "kXyiSGXoPVwHZzaB",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Duergar Mind Master",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/icewind-dale-vagabond-rpg/assets/tokens/Duergar_Mind_Master.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Potions",
+  "type": "Item",
+  "sort": 10000,
+  "_id": "OYFK8ISLhQB6iPg5",
+  "description": "",
+  "folder": null,
+  "sorting": "a",
+  "color": null,
+  "flags": {},
+  "_key": "!folders!OYFK8ISLhQB6iPg5"
+}

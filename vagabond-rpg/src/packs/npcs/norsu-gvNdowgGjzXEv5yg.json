@@ -1,0 +1,282 @@
+{
+  "_id": "gvNdowgGjzXEv5yg",
+  "_key": "!actors!gvNdowgGjzXEv5yg",
+  "name": "Norsu",
+  "type": "npc",
+  "img": "modules/icewind-dale-vagabond-rpg/assets/tokens/Mammoth.webp",
+  "system": {
+    "hd": 13,
+    "tl": 8.3,
+    "attributes": {
+      "hp": {
+        "value": 58,
+        "max": 58
+      },
+      "armor": 3,
+      "armorTag": "as Plate",
+      "morale": 4,
+      "speed": {
+        "value": 40,
+        "types": ""
+      },
+      "travel": 0
+    },
+    "cargo": {
+      "max": 0
+    },
+    "details": {
+      "size": "huge",
+      "beingType": "beast",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "1",
+      "senses": "",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion), Chapter 1: Ten-Towns",
+      "description": "<p><em>An awakened woolly mammoth. Still watches over the frozen corpse of Garagai, its late frost giant master, and won't leave its side.</em></p><p><strong>Stat block:</strong> Mastodon</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "jqhGyn1LSS22jM2R",
+      "name": "Combo",
+      "type": "action",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
+      "system": {
+        "description": "<p>1×Tusk and 1×Stomp</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 0,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!gvNdowgGjzXEv5yg.jqhGyn1LSS22jM2R"
+    },
+    {
+      "_id": "g36cBhR9OUFMZr2B",
+      "name": "Stomp",
+      "type": "action",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
+      "system": {
+        "description": "<p>18 (4d8)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "4d8",
+        "average": 18,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!gvNdowgGjzXEv5yg.g36cBhR9OUFMZr2B"
+    },
+    {
+      "_id": "HDNaRBpl9kTfu9eJ",
+      "name": "Tusk",
+      "type": "action",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
+      "system": {
+        "description": "<p>7 (2d6)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "2d6",
+        "average": 7,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 2,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!gvNdowgGjzXEv5yg.HDNaRBpl9kTfu9eJ"
+    },
+    {
+      "_id": "KbREQcI3IugjESJM",
+      "name": "Charger",
+      "type": "action",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
+      "system": {
+        "description": "<p>Tusks deal double damage that Turn if it Moves at least 20' before the attack.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 3,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!gvNdowgGjzXEv5yg.KbREQcI3IugjESJM"
+    }
+  ],
+  "effects": [],
+  "folder": "DuNxZVvUwOKa1Fll",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "icewind-dale-vagabond-rpg": {
+      "namedNpc": true,
+      "statBlock": "Mastodon",
+      "chapter": "Chapter 1: Ten-Towns"
+    }
+  },
+  "prototypeToken": {
+    "name": "Norsu",
+    "displayName": 30,
+    "actorLink": false,
+    "width": 3,
+    "height": 3,
+    "texture": {
+      "src": "modules/icewind-dale-vagabond-rpg/assets/tokens/Mammoth.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  }
+}

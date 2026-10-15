@@ -1,0 +1,38 @@
+{
+  "_id": "jPJ6touLbzE08ehM",
+  "_key": "!items!jPJ6touLbzE08ehM",
+  "name": "Bag of Beans",
+  "folder": "HRAT1cqrSPRgle2E",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "type": "gear",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
+  "system": {
+    "description": "<p><em>Lore: Relic Bag (Consumable)</em></p><p>Perfectly ordinary beans. That is the problem. It has the following Powers:</p><ul><li><strong>Sprouting:</strong> Plant a bean and something happens - a treant, a geyser, a rain of toads, or a small, extremely angry monster. Roll on the DM's table.</li></ul><p>Value: 2000g</p>",
+    "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+    "quantity": 1,
+    "value": 200000,
+    "equipped": false,
+    "slots": 1,
+    "category": "relic",
+    "alchemicalType": "",
+    "consumable": true,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": "",
+      "damageType": ""
+    },
+    "contents": [],
+    "wealth": 0
+  }
+}

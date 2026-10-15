@@ -1,0 +1,38 @@
+{
+  "_id": "3kcszFolMeru1m5f",
+  "_key": "!items!3kcszFolMeru1m5f",
+  "name": "Ring of the Ram",
+  "folder": "TJXiEQwW45323Owm",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "type": "gear",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
+  "system": {
+    "description": "<p><em>Lore: Relic Ring (Bound)</em></p><p>A band of bronze cast as a curled ram's head, found in the wreck of a Netherese skycoach. It has the following Powers:</p><ul><li><strong>Ram's Charge:</strong> Holds 3 charges, all of which return after a Rest. Expend a charge to strike a Being within Far with a spectral ram: 2d10 damage and shoved 15 feet.</li></ul><p>Value: 5000g</p>",
+    "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+    "quantity": 1,
+    "value": 500000,
+    "equipped": false,
+    "slots": 1,
+    "category": "relic",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 3,
+      "max": 3
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": "",
+      "damageType": ""
+    },
+    "contents": [],
+    "wealth": 0
+  }
+}

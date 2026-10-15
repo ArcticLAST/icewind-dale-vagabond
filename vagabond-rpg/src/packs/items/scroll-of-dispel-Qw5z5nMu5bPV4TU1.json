@@ -1,0 +1,38 @@
+{
+  "_id": "Qw5z5nMu5bPV4TU1",
+  "_key": "!items!Qw5z5nMu5bPV4TU1",
+  "name": "Scroll of Dispel",
+  "folder": "3R60As4K1hdTr0d2",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "type": "gear",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
+  "system": {
+    "description": "<p><em>Lore: Relic Scroll (Consumable)</em></p><p>Bundled with an archer figurine in the Dark Duchess's hold. It has the following Powers:</p><ul><li><strong>Inscribed Casting:</strong> Holds a single Casting of @UUID[Compendium.vagabond-rpg.spells.Item.O0K90e3VVZjgNGRW]{Dispel}, at the Rank it was scribed. Reading it aloud Casts the Spell without spending Mana and consumes the scroll.</li></ul><p>Value: 100g</p>",
+    "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+    "quantity": 1,
+    "value": 10000,
+    "equipped": false,
+    "slots": 1,
+    "category": "relic",
+    "alchemicalType": "",
+    "consumable": true,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": "",
+      "damageType": ""
+    },
+    "contents": [],
+    "wealth": 0
+  }
+}

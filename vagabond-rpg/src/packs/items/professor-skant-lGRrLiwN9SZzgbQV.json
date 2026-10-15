@@ -1,0 +1,38 @@
+{
+  "_id": "lGRrLiwN9SZzgbQV",
+  "_key": "!items!lGRrLiwN9SZzgbQV",
+  "name": "Professor Skant",
+  "folder": "HRAT1cqrSPRgle2E",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "type": "gear",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
+  "system": {
+    "description": "<p><em>Lore: Relic Orb</em></p><p><em>Once the pride and joy of Vellynne Harpell's collection, stolen out from under her by Nass Lantomir - who talks about it a great deal less than it talks about itself.</em></p><p>A smoky gray quartz sphere the size of a grapefruit, with pinpricks of silver light deep inside. Professor Skant is sentient, opinionated, and thinks everyone carrying it is a dunderhead - but it has no will of its own and can't pick fights on its own behalf.</p><p>It can Cast Kinesis at will, using it only to move itself around. Once per Round when you make a Check to recall lore on one of its four subjects (the history of Netheril, vampirism, the making of Elverquisst, or the tarrasque), you have Favor.</p><p>It has the following Powers:</p><ul><li><strong>Sentient Archive:</strong> The orb is sentient and speaks Common. It can answer questions on history, arcana and Netherese lore, and volunteers a great deal more than asked.</li><li><strong>Telepathy:</strong> Telepathy (Close) with whoever carries it, which does not require Focus.</li></ul><p>Value: 2500g</p>",
+    "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+    "quantity": 1,
+    "value": 250000,
+    "equipped": false,
+    "slots": 1,
+    "category": "relic",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": "",
+      "damageType": ""
+    },
+    "contents": [],
+    "wealth": 0
+  }
+}

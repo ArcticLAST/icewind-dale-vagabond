@@ -1,0 +1,408 @@
+{
+  "_id": "ZtbFyxVcEDfMpiVy",
+  "_key": "!actors!ZtbFyxVcEDfMpiVy",
+  "name": "Ancient White Dragon",
+  "type": "npc",
+  "img": "modules/icewind-dale-vagabond-rpg/assets/tokens/Ancient_White_Dragon.webp",
+  "system": {
+    "hd": 30,
+    "tl": 12.2,
+    "attributes": {
+      "hp": {
+        "value": 135,
+        "max": 135
+      },
+      "armor": 7,
+      "armorTag": "as (+3) Plate and Shield",
+      "morale": 11,
+      "speed": {
+        "value": 40,
+        "types": "Fly 80'"
+      },
+      "travel": 0
+    },
+    "cargo": {
+      "max": 0
+    },
+    "details": {
+      "size": "giant",
+      "beingType": "cryptid",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "1",
+      "senses": "Blindsight",
+      "immune": "Cold; Physical from non-Relics",
+      "weak": "",
+      "statusImmunities": "Frightened, Berserk, Confused, Charmed",
+      "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+      "description": "<p>The awesome, flying, scaled terrors of myth.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "moHoPA7N80Gi3DCt",
+      "name": "Breath Attack",
+      "type": "action",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
+      "system": {
+        "description": "<p>21 (6d6) Take an Action to begin this Attack, which occurs on this Being's next Turn. Effect: and Dazed (Cd6 Speed reduced by 20') if failed</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Attack, Far Cone | Endure or Reflex | Half damage on a pass",
+        "damage": "6d6",
+        "average": 21,
+        "damageType": "cold",
+        "save": "endureReflex",
+        "recharge": "Recharge Cd4",
+        "sort": 0,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ZtbFyxVcEDfMpiVy.moHoPA7N80Gi3DCt"
+    },
+    {
+      "_id": "hJChRQTdgMDe80NN",
+      "name": "Combo",
+      "type": "action",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
+      "system": {
+        "description": "<p>2×Claw and 1×Bite</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 1,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ZtbFyxVcEDfMpiVy.hJChRQTdgMDe80NN"
+    },
+    {
+      "_id": "0bdXDgIywZ2lgvhk",
+      "name": "Bite",
+      "type": "action",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
+      "system": {
+        "description": "<p>13 (2d12)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "2d12",
+        "average": 13,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 2,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ZtbFyxVcEDfMpiVy.0bdXDgIywZ2lgvhk"
+    },
+    {
+      "_id": "fUkromV8dh7hyBQe",
+      "name": "Claw",
+      "type": "action",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
+      "system": {
+        "description": "<p>6 (1d10+1)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "1d10+1",
+        "average": 6,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 3,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ZtbFyxVcEDfMpiVy.fUkromV8dh7hyBQe"
+    },
+    {
+      "_id": "ibG3tyPXUYxOpAiV",
+      "name": "Tail",
+      "type": "action",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
+      "system": {
+        "description": "<p>6 (1d12) and shoved 30' away and Prone</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack 10'",
+        "damage": "1d12",
+        "average": 6,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 4,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ZtbFyxVcEDfMpiVy.ibG3tyPXUYxOpAiV"
+    },
+    {
+      "_id": "9YpsX7Wx6fnkYBM8",
+      "name": "Immutable",
+      "type": "action",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
+      "system": {
+        "description": "<p>It can't be transformed.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 5,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ZtbFyxVcEDfMpiVy.9YpsX7Wx6fnkYBM8"
+    },
+    {
+      "_id": "oD0lKwOvSip0aeAY",
+      "name": "Magic Ward IV",
+      "type": "action",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
+      "system": {
+        "description": "<p>The first time it is unwillingly affected by a Spell each Round, the Caster must spend an extra 4 Mana to affect it.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 6,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ZtbFyxVcEDfMpiVy.oD0lKwOvSip0aeAY"
+    },
+    {
+      "_id": "mt6ODc3E5sbXYwfD",
+      "name": "Terror II",
+      "type": "action",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
+      "system": {
+        "description": "<p>Enemies that can see it for the first time and at the start of their Turns thereafter must pass [Will] or be Frightened (Cd6 Rounds).</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "will",
+        "recharge": "",
+        "sort": 7,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ZtbFyxVcEDfMpiVy.mt6ODc3E5sbXYwfD"
+    }
+  ],
+  "effects": [],
+  "folder": "QQZ18YcqOyJl0AY0",
+  "sort": 5800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Ancient White Dragon",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 4,
+    "height": 4,
+    "texture": {
+      "src": "modules/icewind-dale-vagabond-rpg/assets/tokens/Ancient_White_Dragon.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "_id": "1woeiqFrTBdFDz6i",
+  "_key": "!items!1woeiqFrTBdFDz6i",
+  "name": "Hat of Disguise",
+  "folder": "HRAT1cqrSPRgle2E",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "type": "gear",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
+  "system": {
+    "description": "<p><em>Lore: Relic Hat (Bound)</em></p><p>Pekoe Quint's, and it explains a great deal about Pekoe Quint. It has the following Powers:</p><ul><li><strong>Disguise:</strong> Cast @UUID[Compendium.vagabond-rpg.spells.Item.rk2GSVwSxOLSOozU]{Mirage} on yourself at will to change your appearance. The illusion ends if the hat leaves your head.</li></ul><p>Value: 5000g</p>",
+    "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+    "quantity": 1,
+    "value": 500000,
+    "equipped": false,
+    "slots": 1,
+    "category": "relic",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": "",
+      "damageType": ""
+    },
+    "contents": [],
+    "wealth": 0
+  }
+}

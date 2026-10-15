@@ -1,0 +1,276 @@
+{
+  "_id": "yGV2JVWTYyx53tSH",
+  "_key": "!actors!yGV2JVWTYyx53tSH",
+  "name": "Remorhaz",
+  "type": "npc",
+  "img": "modules/icewind-dale-vagabond-rpg/assets/tokens/Remorhaz.webp",
+  "system": {
+    "hd": 17,
+    "tl": 10.6,
+    "attributes": {
+      "hp": {
+        "value": 76,
+        "max": 76
+      },
+      "armor": 4,
+      "armorTag": "as (+1) Plate",
+      "morale": 11,
+      "speed": {
+        "value": 30,
+        "types": ""
+      },
+      "travel": 0
+    },
+    "cargo": {
+      "max": 0
+    },
+    "details": {
+      "size": "huge",
+      "beingType": "cryptid",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "1",
+      "senses": "Blindsight",
+      "immune": "Cold, Fire",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+      "description": "<p>The polar worm. It tunnels under the ice and comes up beneath you, and its back glows hot enough to cook whatever it swallows.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "tgXwAcc0HQPmcviS",
+      "name": "Bite",
+      "type": "action",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
+      "system": {
+        "description": "<p>40 (6d10+7) The target is Grappling and Restrained, and the remorhaz can't bite another target until the grapple ends.</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack 10'",
+        "damage": "6d10+7",
+        "average": 40,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 0,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!yGV2JVWTYyx53tSH.tgXwAcc0HQPmcviS"
+    },
+    {
+      "_id": "wOk6FKYApbOB5jt2",
+      "name": "Swallow",
+      "type": "action",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
+      "system": {
+        "description": "<p>It bites a Medium or smaller Being it is Grappling. On a hit, the target is swallowed, is Blinded and Restrained, and takes 21 (6d6) Acid damage at the start of each of the remorhaz's Turns.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 1,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!yGV2JVWTYyx53tSH.wOk6FKYApbOB5jt2"
+    },
+    {
+      "_id": "v4Wkx5Ns7B4cxD8J",
+      "name": "Heated Body",
+      "type": "action",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
+      "system": {
+        "description": "<p>A Being that touches it or hits it with a melee Attack takes 10 (3d6) Fire damage.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 2,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!yGV2JVWTYyx53tSH.v4Wkx5Ns7B4cxD8J"
+    },
+    {
+      "_id": "Mb6g5AXK0yQLdE6x",
+      "name": "Ice Tunneler",
+      "type": "action",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
+      "system": {
+        "description": "<p>It burrows through ice and packed snow at 20', leaving a tunnel behind it.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 3,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!yGV2JVWTYyx53tSH.Mb6g5AXK0yQLdE6x"
+    }
+  ],
+  "effects": [],
+  "folder": "QQZ18YcqOyJl0AY0",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Remorhaz",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 3,
+    "height": 3,
+    "texture": {
+      "src": "modules/icewind-dale-vagabond-rpg/assets/tokens/Remorhaz.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  }
+}

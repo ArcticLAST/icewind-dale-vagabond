@@ -1,0 +1,243 @@
+{
+  "_id": "XlEC0LFCKcGKTG0J",
+  "_key": "!actors!XlEC0LFCKcGKTG0J",
+  "name": "Vellynne Harpell",
+  "type": "npc",
+  "img": "modules/icewind-dale-vagabond-rpg/assets/tokens/Vellynne_Harpell.webp",
+  "system": {
+    "hd": 7,
+    "tl": 4,
+    "attributes": {
+      "hp": {
+        "value": 31,
+        "max": 31
+      },
+      "armor": 3,
+      "armorTag": "as (+2) Leather",
+      "morale": 7,
+      "speed": {
+        "value": 20,
+        "types": ""
+      },
+      "travel": 0
+    },
+    "cargo": {
+      "max": 0
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "humanlike",
+      "subtype": "",
+      "zone": "backline",
+      "appearing": "1",
+      "senses": "",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+      "description": "<p>A pragmatic Arcane Brotherhood wizard chasing rumors of Netheril, more interested in what Icewind Dale can teach her than what it can give her.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "ymRFbg9jf7r9HZJk",
+      "name": "Chill Touch",
+      "type": "action",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
+      "system": {
+        "description": "<p>10 (2d8+1) Target can't regain HP until the start of Vellynne's next Turn.</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Remote | Reflex",
+        "damage": "2d8+1",
+        "average": 10,
+        "damageType": "cold",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 0,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!XlEC0LFCKcGKTG0J.ymRFbg9jf7r9HZJk"
+    },
+    {
+      "_id": "rgW0w2XfUorcebOI",
+      "name": "Vampiric Touch",
+      "type": "action",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
+      "system": {
+        "description": "<p>10 (3d6) Vellynne regains HP equal to half the damage dealt.</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Touch | Endure",
+        "damage": "3d6",
+        "average": 10,
+        "damageType": "magic",
+        "save": "endure",
+        "recharge": "3/Day",
+        "sort": 1,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!XlEC0LFCKcGKTG0J.rgW0w2XfUorcebOI"
+    },
+    {
+      "_id": "Y8M2fCbdh0JKtstH",
+      "name": "Wand of Magic Missiles",
+      "type": "action",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
+      "system": {
+        "description": "<p>10 (3d4+3) Always hits.</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Remote",
+        "damage": "3d4+3",
+        "average": 10,
+        "damageType": "magic",
+        "save": "",
+        "recharge": "7/Day",
+        "sort": 2,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!XlEC0LFCKcGKTG0J.Y8M2fCbdh0JKtstH"
+    }
+  ],
+  "effects": [],
+  "folder": "x6PcAS0Bw6Lcb9rS",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Vellynne Harpell",
+    "displayName": 30,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/icewind-dale-vagabond-rpg/assets/tokens/Vellynne_Harpell.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  }
+}

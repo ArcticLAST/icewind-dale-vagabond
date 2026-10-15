@@ -1,0 +1,130 @@
+{
+  "id": "icewind-dale-vagabond-rpg",
+  "title": "Icewind Dale: Rime of the Frostmaiden (Vagabond RPG)",
+  "description": "<p>Icewind Dale: Rime of the Frostmaiden converted for the <strong>vagabond-rpg</strong> system.</p><ul><li><strong>436 actors</strong>: every creature type on the adventure roster, plus the named NPCs filed by chapter.</li><li><strong>Magic items</strong> built to Vagabond's Relic conventions.</li><li><strong>11 encounter maps</strong>, 10 roll tables and 3 reference journals.</li></ul><p>Import <strong>Icewind Dale (Complete)</strong> from the Adventures compendium to bring everything into a world with its folders. Contains no published adventure text.</p>",
+  "version": "2.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14",
+    "maximum": ""
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "vagabond-rpg",
+        "type": "system",
+        "compatibility": {
+          "minimum": "0.6.18"
+        }
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Arctic"
+    }
+  ],
+  "url": "https://github.com/ArcticLAST/icewind-dale-vagabond",
+  "packs": [
+    {
+      "name": "adventure",
+      "label": "Icewind Dale - Adventures",
+      "path": "packs/adventure",
+      "type": "Adventure",
+      "system": "vagabond-rpg",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      }
+    },
+    {
+      "name": "scenes",
+      "label": "Icewind Dale - Encounter Maps",
+      "path": "packs/scenes",
+      "type": "Scene",
+      "system": "vagabond-rpg",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OBSERVER",
+        "GAMEMASTER": "OWNER"
+      }
+    },
+    {
+      "name": "monsters",
+      "label": "Icewind Dale - Monsters",
+      "path": "packs/monsters",
+      "type": "Actor",
+      "system": "vagabond-rpg",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OBSERVER",
+        "GAMEMASTER": "OWNER"
+      }
+    },
+    {
+      "name": "npcs",
+      "label": "Icewind Dale - NPCs",
+      "path": "packs/npcs",
+      "type": "Actor",
+      "system": "vagabond-rpg",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OBSERVER",
+        "GAMEMASTER": "OWNER"
+      }
+    },
+    {
+      "name": "items",
+      "label": "Icewind Dale - Magic Items",
+      "path": "packs/items",
+      "type": "Item",
+      "system": "vagabond-rpg",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OBSERVER",
+        "GAMEMASTER": "OWNER"
+      }
+    },
+    {
+      "name": "journals",
+      "label": "Icewind Dale - Reference",
+      "path": "packs/journals",
+      "type": "JournalEntry",
+      "system": "vagabond-rpg",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OBSERVER",
+        "GAMEMASTER": "OWNER"
+      }
+    },
+    {
+      "name": "tables",
+      "label": "Icewind Dale - Tables",
+      "path": "packs/tables",
+      "type": "RollTable",
+      "system": "vagabond-rpg",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OBSERVER",
+        "GAMEMASTER": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Icewind Dale",
+      "sorting": "m",
+      "color": "#3f6f8f",
+      "packs": [
+        "adventure",
+        "scenes",
+        "monsters",
+        "npcs",
+        "items",
+        "journals",
+        "tables"
+      ]
+    }
+  ]
+}

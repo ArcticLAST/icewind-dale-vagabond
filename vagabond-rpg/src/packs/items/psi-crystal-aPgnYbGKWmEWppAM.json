@@ -1,0 +1,38 @@
+{
+  "_id": "aPgnYbGKWmEWppAM",
+  "_key": "!items!aPgnYbGKWmEWppAM",
+  "name": "Psi Crystal",
+  "folder": "HRAT1cqrSPRgle2E",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "type": "gear",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
+  "system": {
+    "description": "<p><em>Lore: Relic Crystal (Bound)</em></p><p><em>A shard of Netherese thought-crystal, humming faintly with the residue of a mind that stopped using it a very long time ago.</em></p><p><strong>Bound Effect:</strong> Grants Telepathy for as long as you remain Bound to it, and glows with a soft purple light while worn.</p><p>It has the following Powers:</p><ul><li><strong>Telepathy:</strong> Telepathy (Far) while you remain Bound to it. The crystal glows a soft purple while worn.</li></ul><p>Value: 10000g</p>",
+    "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+    "quantity": 1,
+    "value": 1000000,
+    "equipped": false,
+    "slots": 1,
+    "category": "relic",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": "",
+      "damageType": ""
+    },
+    "contents": [],
+    "wealth": 0
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "name": "Running This Conversion",
+  "folder": null,
+  "pages": [
+    {
+      "name": "House rules & conversion notes",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h2>Charges</h2><p>Vagabond keeps bookkeeping low, so <strong>no item rolls to recover charges</strong>. Every charged item is <strong>3 charges</strong> (wands, Ring of the Ram) or <strong>5 charges</strong> (staffs, Abracadabrus), and they all come back <strong>in full after a Rest</strong>. Fixed-use items (Chime of Opening, Bag of Tricks, Necklace of Fireballs) were cut to 3–5 for the same reason.</p><h2>Threat Level ≈ Challenge Rating</h2><p>Every hand-converted creature was validated against Vagabond's own TL formula. TL is calibrated against the <em>core compendium's</em> scale rather than raw CR — core's Veteran is CR 3 at TL 2.4, and its Goblin is CR ¼ at TL 1.2 — so low-CR creatures naturally sit around TL 0.5–1.5.</p><h2>Things Vagabond does not have</h2><ul><li><strong>No Radiant or Force damage.</strong> Both are reflavoured as <em>magical</em>. Auril's radiant vulnerability became Fire; the <em>potion of radiant resistance</em> became the <strong>Potion of Warding</strong>.</li><li><strong>No Necrotic or Psychic damage.</strong> Attacks that dealt them deal Magic damage; Immune lines still name them as a note for the GM.</li><li><strong>No burrow speed.</strong> Burrowers (Remorhaz, Ice Piercer) describe it in an ability instead.</li><li><strong>Small size means 1 HP per HD</strong>, and is reserved for rat-scale creatures. The Demilich and Flameskull are built <em>Medium</em> so they aren't crippled by it.</li><li><strong>No boss HP doubling.</strong> Auril's forms and the Demilich reach their intended HP through a doubled effective HD instead.</li></ul><h2>Weather &amp; cold</h2><p>Roll <em>Weather — The Everlasting Rime</em> each dawn, and <em>Blistering Cold — Exposure</em> for anyone caught out without shelter or warmth. Cold Resistance items and the Ring of Warmth exist precisely to switch this off.</p>",
+        "format": 1
+      },
+      "sort": 0,
+      "_id": "oJ97c7x7T5vUM8Ba",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!journal.pages!Ddht4HKB98rTO7w9.oJ97c7x7T5vUM8Ba"
+    },
+    {
+      "name": "What's in this module",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<ul><li><strong>Monsters</strong> — 207 stat blocks in eight sub-folders by Being Type.</li><li><strong>NPCs</strong> — 229, split into Villains, Key NPCs, and one folder per chapter. 211 of them are named individuals built on a shared stat block; each one's sheet says which chassis it uses.</li><li><strong>Magic Items</strong> — 67, in six folders (Bag of Holding, Helm of Telepathy, Potion of Cold Resistance, Potion of Gaseous Form, Potion of Healing, Potion of Invisibility, Potion of Superior Healing are left out: use the core Relics and Alchemical Items compendiums), priced from Vagabond's official Powers table.</li><li><strong>Tables</strong> — six encounter tables by region, plus weather, cold exposure, scavenging and chwinga gifts.</li></ul><h2>Token dispositions</h2><p>Monsters and Villains are Hostile. Key NPCs are Friendly. Everyone in a chapter folder defaults to Neutral, except the ones who are genuinely enemies (cultists, duergar, the Ythryn cast) — those are already set Hostile. Names show on hover: GM-only for monsters, everyone for NPCs.</p><h2>Not included</h2><p>No maps and no published adventure text — this module is stat blocks, items and reference only. You'll need the adventure itself to run it.</p>",
+        "format": 1
+      },
+      "sort": 1,
+      "_id": "MMpfHzguBj1FXpst",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!journal.pages!Ddht4HKB98rTO7w9.MMpfHzguBj1FXpst"
+    }
+  ],
+  "categories": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_id": "Ddht4HKB98rTO7w9",
+  "_key": "!journal!Ddht4HKB98rTO7w9"
+}

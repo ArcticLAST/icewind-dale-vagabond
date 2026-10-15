@@ -1,0 +1,342 @@
+{
+  "_id": "Nt8G12IdHami62PL",
+  "_key": "!actors!Nt8G12IdHami62PL",
+  "name": "Demilich",
+  "type": "npc",
+  "img": "modules/icewind-dale-vagabond-rpg/assets/tokens/Demilich.webp",
+  "system": {
+    "hd": 36,
+    "tl": 14.6,
+    "attributes": {
+      "hp": {
+        "value": 162,
+        "max": 162
+      },
+      "armor": 7,
+      "armorTag": "as (+4) Plate",
+      "morale": 12,
+      "speed": {
+        "value": 0,
+        "types": "Fly 30'"
+      },
+      "travel": 0
+    },
+    "cargo": {
+      "max": 0
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "undead",
+      "subtype": "",
+      "zone": "backline",
+      "appearing": "1",
+      "senses": "Blindsight",
+      "immune": "Necrotic, Poison, Psychic; Physical from non-Relics",
+      "weak": "",
+      "statusImmunities": "Charmed, Fatigued, Frightened, Paralyzed, Prone, Sickened",
+      "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+      "description": "<p>Iriolarthas, Arch-Astronomer of Ythryn - a lich so old that only the skull kept up. The gems in its teeth are the souls it hasn't finished.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "rmiGjvJkOJGZ7J5Y",
+      "name": "Life Drain",
+      "type": "action",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
+      "system": {
+        "description": "<p>21 (6d6) Up to three Beings it can see are targeted. It regains HP equal to the total damage dealt.</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Near | Endure",
+        "damage": "6d6",
+        "average": 21,
+        "damageType": "magic",
+        "save": "endure",
+        "recharge": "",
+        "sort": 0,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!Nt8G12IdHami62PL.rmiGjvJkOJGZ7J5Y"
+    },
+    {
+      "_id": "apBqlE7jvEK13z7C",
+      "name": "Howl",
+      "type": "action",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
+      "system": {
+        "description": "<p>Every Being that hears it must pass [Endure] or drop to 0 HP. On a pass, the Being is Frightened until the end of its next Turn.</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Near Aura | Endure",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "endure",
+        "recharge": "Recharge Cd6",
+        "sort": 1,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!Nt8G12IdHami62PL.apBqlE7jvEK13z7C"
+    },
+    {
+      "_id": "3iUkvn4TWJjqf3fc",
+      "name": "Vile Curse",
+      "type": "action",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
+      "system": {
+        "description": "<p>The target has Hinder on Attacks and Saves, and the demilich has Favor on Attacks against it, until the curse is lifted.</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Near | Will",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "will",
+        "recharge": "1/Day",
+        "sort": 2,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!Nt8G12IdHami62PL.3iUkvn4TWJjqf3fc"
+    },
+    {
+      "_id": "Odutfn6aL8vEy2Xp",
+      "name": "Magic Ward IV",
+      "type": "action",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
+      "system": {
+        "description": "<p>The first time it is unwillingly affected by a Spell each Round, the Caster must spend an extra 4 Mana to affect it.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 3,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!Nt8G12IdHami62PL.Odutfn6aL8vEy2Xp"
+    },
+    {
+      "_id": "4vwT6pTKBgWf0AWe",
+      "name": "Avoidance",
+      "type": "action",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
+      "system": {
+        "description": "<p>When it passes a Save against an effect, it takes no damage from that effect at all.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 4,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!Nt8G12IdHami62PL.4vwT6pTKBgWf0AWe"
+    },
+    {
+      "_id": "71wpuIrqd38165cw",
+      "name": "Soul Gems",
+      "type": "action",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
+      "system": {
+        "description": "<p>It cannot be permanently destroyed while any of its soul gems remain intact.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 5,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!Nt8G12IdHami62PL.71wpuIrqd38165cw"
+    }
+  ],
+  "effects": [],
+  "folder": "KRats0sLCTRooSLn",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Demilich",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/icewind-dale-vagabond-rpg/assets/tokens/Demilich.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "_id": "EcwRdd2xemp9trli",
+  "_key": "!items!EcwRdd2xemp9trli",
+  "name": "Berserker Axe",
+  "folder": "jHOB7Xle8qhC5Lqp",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [
+    {
+      "_id": "AEh6XB1kNw7C6HAh",
+      "_key": "!items.effects!EcwRdd2xemp9trli.AEh6XB1kNw7C6HAh",
+      "name": "(+1) Armor",
+      "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.bonuses.armor",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "flags": {},
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "system": {},
+      "type": "base",
+      "sort": 0
+    }
+  ],
+  "type": "weapon",
+  "img": "systems/vagabond-rpg/assets/icons/broadsword.svg",
+  "system": {
+    "description": "<p><em>Lore: Relic Battleaxe (Bound)</em></p><p>Vassavicken's axe. It wants to be swung, and it is not especially concerned at what. It has the following Powers:</p><ul><li><strong>(+2) Weapon:</strong> Deals an extra +2 damage.</li><li><strong>(+1) Armor:</strong> +1 bonus to Armor while the axe is carried.</li><li><strong>Anger:</strong> The wielder always fails Saves against Berserk. While Berserk they must Attack the nearest Being each Turn, and cannot willingly part with the axe.</li></ul><p>Value: 1350g</p>",
+    "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+    "quantity": 1,
+    "slots": 2,
+    "value": 135000,
+    "equipped": false,
+    "types": {
+      "melee": true,
+      "brawl": false,
+      "finesse": false,
+      "ranged": false
+    },
+    "properties": {
+      "cleave": true,
+      "defense": false,
+      "grapple": false,
+      "keen": false,
+      "long": false,
+      "thrown": false,
+      "vicious": false
+    },
+    "range": "close",
+    "grip": "v",
+    "damage": "d8",
+    "twoHanded": false,
+    "metal": "",
+    "bonus": 2,
+    "crude": false,
+    "relic": true
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "_id": "xBrQBzzQKal9xTco",
+  "_key": "!items!xBrQBzzQKal9xTco",
+  "name": "Orc Stone",
+  "folder": "HRAT1cqrSPRgle2E",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "type": "gear",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
+  "system": {
+    "description": "<p><em>Lore: Relic Stone (Bound)</em></p><p>A fist-sized rock carved with an orcish eye, which watches back. It has the following Powers:</p><ul><li><strong>The Eyebiter's Shade:</strong> Once per Rest, summon the spirit of Vokarr the Eyebiter for 1 Hour. It answers questions about war and about orcs, and lies about everything else.</li></ul><p>Value: 2500g</p>",
+    "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+    "quantity": 1,
+    "value": 250000,
+    "equipped": false,
+    "slots": 1,
+    "category": "relic",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": "",
+      "damageType": ""
+    },
+    "contents": [],
+    "wealth": 0
+  }
+}

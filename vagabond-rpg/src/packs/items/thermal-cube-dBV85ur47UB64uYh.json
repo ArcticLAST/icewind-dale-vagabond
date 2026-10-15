@@ -1,0 +1,38 @@
+{
+  "_id": "dBV85ur47UB64uYh",
+  "_key": "!items!dBV85ur47UB64uYh",
+  "name": "Thermal Cube",
+  "folder": "HRAT1cqrSPRgle2E",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "type": "gear",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
+  "system": {
+    "description": "<p><em>Lore: Relic Cube</em></p><p><em>Netherese wizards used them to keep their studies comfortable a thousand feet above a frozen glacier. Ten-Towns folk just call it a small miracle.</em></p><p>This 3-inch cube of solid brimstone radiates enough dry heat to keep the area within Close at a balmy 95 degrees Fahrenheit.</p><p>It has the following Powers:</p><ul><li><strong>Hearth:</strong> Radiates dry heat, holding the area within Close at a comfortable 95 degrees Fahrenheit. It never runs out.</li></ul><p>Value: 50g</p>",
+    "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+    "quantity": 1,
+    "value": 5000,
+    "equipped": false,
+    "slots": 1,
+    "category": "relic",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": "",
+      "damageType": ""
+    },
+    "contents": [],
+    "wealth": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "_id": "OUpH3ahQw9niJOsI",
+  "_key": "!items!OUpH3ahQw9niJOsI",
+  "name": "Piwafwi",
+  "folder": "HRAT1cqrSPRgle2E",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "type": "gear",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
+  "system": {
+    "description": "<p><em>Lore: Relic Cloak (Bound)</em></p><p>The drow cut of the same enchantment, black as the Underdark and twice as smug about it. It has the following Powers:</p><ul><li><strong>Invisibility I:</strong> While the hood is up, skip your Move to become Invisible until after you take an Action. Beings have Hinder on Checks to notice you even after that.</li></ul><p>Value: 5000g</p>",
+    "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+    "quantity": 1,
+    "value": 500000,
+    "equipped": false,
+    "slots": 1,
+    "category": "relic",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": "",
+      "damageType": ""
+    },
+    "contents": [],
+    "wealth": 0
+  }
+}

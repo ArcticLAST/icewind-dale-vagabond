@@ -1,0 +1,50 @@
+{
+  "name": "Quests — Ten-Towns",
+  "folder": null,
+  "pages": [
+    {
+      "name": "Chapter 1 Quest Board",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p>One line each. Every creature named here exists in the <strong>Icewind Dale</strong> Actors folders.</p><table><thead><tr><th>Town</th><th>Quest</th><th>Giver</th><th>The short version</th><th>Watch out for</th></tr></thead><tbody><tr><td>Bremen</td><td>Lake Monster</td><td>Tali</td><td>Something is taking fishers on Maer Dualdon.</td><td><em>Plesiosaurus</em></td></tr><tr><td>Bremen</td><td>Foaming Mugs</td><td>Speaker Shalescar</td><td>Recover stolen mugs. Comedy, not combat.</td><td>—</td></tr><tr><td>Bryn Shander</td><td>Cold-Hearted Killer</td><td>Hlin Trollbane</td><td>Track a serial killer working the caravan roads.</td><td><em>Sephek Kaltro</em> — Auril's chosen</td></tr><tr><td>Bryn Shander</td><td>Mountain Climb</td><td>Hruna, Korux, Storn</td><td>Escort three Battlehammer dwarves up Kelvin's Cairn.</td><td><em>Yeti</em>, <em>Yeti Tyke</em></td></tr><tr><td>Bryn Shander</td><td>Toil and Trouble</td><td>Speaker Duvessa Shane</td><td>Goblins raiding the road. Their boss is <em>Izobai</em>.</td><td><em>Goblin Boss</em></td></tr><tr><td>Caer-Dineval</td><td>Grand Dame Ice Sailing</td><td>Speaker Crannoc Siever</td><td>Win a race. Then notice the town is wrong.</td><td><em>Kadroth</em>, the Levistus cult</td></tr><tr><td>Caer-Dineval</td><td>Cult of the Frozen Rune</td><td>(discovered)</td><td>The speaker is a hostage in his own castle.</td><td><em>Avarice</em>, <em>Gargle</em>, <em>Gurgle</em></td></tr><tr><td>Caer-Konig</td><td>Fish Out of Water</td><td>Speaker Trovus</td><td>Sabotage at the docks — actually duergar.</td><td><em>Nildar Sunblight</em></td></tr><tr><td>Caer-Konig</td><td>Mine Shaft</td><td>Atenas Swift</td><td>A mine went quiet.</td><td><em>Ogre Zombie</em>, spore servants</td></tr><tr><td>Dougan's Hole</td><td>Nature Spirits</td><td>Speaker Edgra Durmoot</td><td>Kobolds and winter wolves have taken two children.</td><td><em>Koran</em> &amp; <em>Kanan</em>, <em>Norsu</em></td></tr><tr><td>Dougan's Hole</td><td>Sacrificial Lamb</td><td>(town)</td><td>The town intends to sacrifice someone to Auril.</td><td>Moral, not mechanical</td></tr><tr><td>Easthaven</td><td>Cauldron of Plenty</td><td>Speaker Danneth Waylen</td><td>A sea hag is feeding the town. Badly.</td><td><em>Maud Chiselbone</em></td></tr><tr><td>Easthaven</td><td>Toil and Trouble</td><td>Captain Imdra Arlaggath</td><td>Duergar spotted near town.</td><td><em>Durth Sunblight</em></td></tr><tr><td>Good Mead</td><td>Mead Mead Mead!</td><td>Speaker Rielsbarrow</td><td>Verbeeg stole the mead stores.</td><td><em>Duhg</em>, <em>Gahg</em>, <em>Yogobor</em></td></tr><tr><td>Lonelywood</td><td>Foaming Mugs / Nature Spirits</td><td>Speaker Nimsy Huddle</td><td>A druid is killing hunters in revenge.</td><td><em>Ravisin</em>, <em>Awakened White Moose</em></td></tr><tr><td>Lonelywood</td><td>Mountain Climb</td><td>(tomb)</td><td>An old tomb under the woods.</td><td><em>Sahnar</em> the mummy</td></tr><tr><td>Targos</td><td>Gutter Rats</td><td>Speaker Naerth Maxildanarr</td><td>Zhentarim errand. Naerth is not a nice man.</td><td><em>Skath</em></td></tr><tr><td>Targos</td><td>Cold-Hearted Killer</td><td>(the Luskan)</td><td>A goliath werebear is loose in town.</td><td><em>Oyaminartok</em></td></tr><tr><td>Termalaine</td><td>Mine Shaft</td><td>Speaker Oarus Masthew</td><td>Kobolds have taken the gem mine.</td><td><em>Trex</em> and his kobolds, <em>Grell</em></td></tr><tr><td>Termalaine</td><td>Foaming Mugs</td><td>Marta Peskryk</td><td>Missing brewing supplies.</td><td>—</td></tr></tbody></table><p><em>Ten-Towns is a sandbox — these run in any order, and most can be resolved without a fight.</em></p>",
+        "format": 1
+      },
+      "sort": 0,
+      "_id": "2oAGEmMSNmlkj2v1",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!journal.pages!Y5b9sbgC7tWDn7ms.2oAGEmMSNmlkj2v1"
+    }
+  ],
+  "categories": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_id": "Y5b9sbgC7tWDn7ms",
+  "_key": "!journal!Y5b9sbgC7tWDn7ms"
+}

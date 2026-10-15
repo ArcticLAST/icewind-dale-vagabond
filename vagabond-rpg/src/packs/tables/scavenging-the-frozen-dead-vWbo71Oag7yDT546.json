@@ -1,0 +1,210 @@
+{
+  "name": "Scavenging the Frozen Dead",
+  "formula": "1d10",
+  "description": "For the many, many corpses in Icewind Dale. Roll when the party searches one.",
+  "folder": null,
+  "img": "modules/icewind-dale-vagabond-rpg/assets/item-icons/minerals.png",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "type": "text",
+      "name": "Nothing but a frozen face you'll remember",
+      "description": "",
+      "weight": 2,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "_id": "kSiGTTEWJXyF8VrR",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!vWbo71Oag7yDT546.kSiGTTEWJXyF8VrR"
+    },
+    {
+      "type": "text",
+      "name": "1d10 gold and a personal effect",
+      "description": "A locket, a carved trout, a letter never sent.",
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "_id": "TXEJ8o0rqOC5kYi3",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!vWbo71Oag7yDT546.TXEJ8o0rqOC5kYi3"
+    },
+    {
+      "type": "text",
+      "name": "Cold-weather clothing, still usable",
+      "description": "",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "3CG9QosbVo6XcGRy",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!vWbo71Oag7yDT546.3CG9QosbVo6XcGRy"
+    },
+    {
+      "type": "text",
+      "name": "1d4 days of rations, frozen solid",
+      "description": "",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "QDT35SjDrUOqF51f",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!vWbo71Oag7yDT546.QDT35SjDrUOqF51f"
+    },
+    {
+      "type": "text",
+      "name": "A weapon, serviceable",
+      "description": "Roll or choose from the mundane weapon list.",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "SrEvX5wdqvIjByWd",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!vWbo71Oag7yDT546.SrEvX5wdqvIjByWd"
+    },
+    {
+      "type": "text",
+      "name": "Potion of Healing",
+      "description": "",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "gZI8X2QF3zMTL9cy",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!vWbo71Oag7yDT546.gZI8X2QF3zMTL9cy"
+    },
+    {
+      "type": "text",
+      "name": "A map fragment",
+      "description": "Points toward one location from a chapter you haven't run yet.",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "11naFVLwOs3h1NLT",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!vWbo71Oag7yDT546.11naFVLwOs3h1NLT"
+    },
+    {
+      "type": "text",
+      "name": "Something is still holding on",
+      "description": "The corpse is a Coldlight Walker, or rises as a Zombie.",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_id": "NRYzr1BDbPlN947C",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!vWbo71Oag7yDT546.NRYzr1BDbPlN947C"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_id": "vWbo71Oag7yDT546",
+  "_key": "!tables!vWbo71Oag7yDT546"
+}

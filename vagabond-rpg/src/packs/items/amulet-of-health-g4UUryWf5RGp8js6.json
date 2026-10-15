@@ -1,0 +1,38 @@
+{
+  "_id": "g4UUryWf5RGp8js6",
+  "_key": "!items!g4UUryWf5RGp8js6",
+  "name": "Amulet of Health",
+  "folder": "HRAT1cqrSPRgle2E",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "type": "gear",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
+  "system": {
+    "description": "<p><em>Lore: Relic Amulet (Bound)</em></p><p>Found in the Black Cabin, where Macreadus apparently valued it less than his machine. It has the following Powers:</p><ul><li><strong>Vigour:</strong> The wearer's Might score becomes 19 if it isn't already higher.</li></ul><p>Value: 10000g</p>",
+    "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+    "quantity": 1,
+    "value": 1000000,
+    "equipped": false,
+    "slots": 1,
+    "category": "relic",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": "",
+      "damageType": ""
+    },
+    "contents": [],
+    "wealth": 0
+  }
+}

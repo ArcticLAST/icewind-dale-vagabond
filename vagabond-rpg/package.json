@@ -1,0 +1,14 @@
+{
+  "name": "icewind-dale-vagabond-rpg",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "extract-old": "node tools/extract-old.mjs",
+    "convert": "node tools/convert.mjs",
+    "build:packs": "node tools/build-packs.mjs pack"
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^3.0.0"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "wainmwlDX4ZuI620",
+  "_key": "!items!wainmwlDX4ZuI620",
+  "name": "Mithral Armor",
+  "folder": "jHOB7Xle8qhC5Lqp",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "type": "armor",
+  "img": "systems/vagabond-rpg/assets/icons/breastplate.svg",
+  "system": {
+    "description": "<p><em>Lore: Relic Chain</em></p><p>Dwarven-made and light as cloth, it never announces the wearer the way steel does. It has the following Powers:</p><ul><li><strong>Featherweight:</strong> Counts as Chain armor, but never imposes Hinder on Checks to move quietly and has no Might requirement.</li></ul><p>Value: 1000g</p>",
+    "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+    "quantity": 1,
+    "slots": 2,
+    "value": 100000,
+    "equipped": false,
+    "armorType": "medium",
+    "rating": 2,
+    "might": 0,
+    "metal": "mythral",
+    "bonus": 0
+  }
+}

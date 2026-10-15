@@ -1,0 +1,45 @@
+{
+  "_id": "2zbBndbQSgZqIaSf",
+  "_key": "!items!2zbBndbQSgZqIaSf",
+  "name": "Wand of Orcus",
+  "folder": "TJXiEQwW45323Owm",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "type": "weapon",
+  "img": "systems/vagabond-rpg/assets/icons/broadsword.svg",
+  "system": {
+    "description": "<p><em>Lore: Fabled Relic Wand (Bound)</em></p><p>A skull-topped rod of the Demon Prince of Undeath. The one in the White Wyrm's hoard is a replica - though nothing about holding it feels like a replica. It has the following Powers:</p><ul><li><strong>(+3) Weapon:</strong> Deals an extra +3 damage.</li><li><strong>Soul Eater:</strong> Those killed by it can't be resurrected unless a wish is granted to do so.</li><li><strong>Vicious:</strong> On a Crit, the Target takes extra damage equal to twice its HD.</li><li><strong>Bane of the Living:</strong> Deals an extra damage die to the living; Undead who see it must pass [Will] or serve the wielder.</li><li><strong>Doom:</strong> The wielder only regains 1 HP per die rolled to heal them, and Undead everywhere become aware of where the wand is.</li></ul><p>Value: 85000g</p>",
+    "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+    "quantity": 1,
+    "slots": 1,
+    "value": 8500000,
+    "equipped": false,
+    "types": {
+      "melee": true,
+      "brawl": false,
+      "finesse": false,
+      "ranged": false
+    },
+    "properties": {
+      "cleave": false,
+      "defense": false,
+      "grapple": false,
+      "keen": false,
+      "long": false,
+      "thrown": false,
+      "vicious": false
+    },
+    "range": "close",
+    "grip": "1h",
+    "damage": "d6",
+    "twoHanded": false,
+    "metal": "",
+    "bonus": 3,
+    "crude": false,
+    "relic": true
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "name": "Encounters — Sunblight Fortress",
+  "formula": "1d8",
+  "description": "Chapter 3. Roll when the party makes noise or lingers.",
+  "folder": null,
+  "img": "modules/icewind-dale-vagabond-rpg/assets/item-icons/minerals.png",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "type": "text",
+      "name": "A patrol passes",
+      "description": "1d4 × Duergar, distracted. Stealth avoids them.",
+      "weight": 2,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "_id": "tfc3iE6UXsw7mYWp",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!wnAyy65vkLKcztsx.tfc3iE6UXsw7mYWp"
+    },
+    {
+      "type": "text",
+      "name": "1d4 × Duergar",
+      "description": "",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "lQEfKMGqvT9eafUY",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!wnAyy65vkLKcztsx.lQEfKMGqvT9eafUY"
+    },
+    {
+      "type": "text",
+      "name": "1 × Duergar Hammerer",
+      "description": "Grinding along a corridor.",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "bngPiu6W5bKovKhE",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!wnAyy65vkLKcztsx.bngPiu6W5bKovKhE"
+    },
+    {
+      "type": "text",
+      "name": "1d2 × Duergar Mind Master",
+      "description": "",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "djbBvUBUDGeLIHow",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!wnAyy65vkLKcztsx.djbBvUBUDGeLIHow"
+    },
+    {
+      "type": "text",
+      "name": "1d3 × Chardalyn Berserker",
+      "description": "Recently 'volunteered'.",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "L2wMniadHRSIHiTv",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!wnAyy65vkLKcztsx.L2wMniadHRSIHiTv"
+    },
+    {
+      "type": "text",
+      "name": "1 × Nildar Sunblight or 1 × Durth Sunblight",
+      "description": "Whichever son is still alive.",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "gB4Qgd2jOcbkzyw5",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!wnAyy65vkLKcztsx.gB4Qgd2jOcbkzyw5"
+    },
+    {
+      "type": "text",
+      "name": "1 × Grandolpha Muzgardt and 1d4 × Duergar",
+      "description": "She would rather talk than fight.",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "POGfixwayVHlYaUu",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!wnAyy65vkLKcztsx.POGfixwayVHlYaUu"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_id": "wnAyy65vkLKcztsx",
+  "_key": "!tables!wnAyy65vkLKcztsx"
+}

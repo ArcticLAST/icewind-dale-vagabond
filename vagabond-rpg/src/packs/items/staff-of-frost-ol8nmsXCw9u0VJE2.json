@@ -1,0 +1,38 @@
+{
+  "_id": "ol8nmsXCw9u0VJE2",
+  "_key": "!items!ol8nmsXCw9u0VJE2",
+  "name": "Staff of Frost",
+  "folder": "TJXiEQwW45323Owm",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "type": "gear",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
+  "system": {
+    "description": "<p><em>Lore: Relic Staff (Bound)</em></p><p>Avarice keeps it close, and the cold that clings to it is noticeably worse than the weather outside. It has the following Powers:</p><ul><li><strong>(+2) Trinket:</strong> Deals an extra +2 damage with Cold Spells.</li><li><strong>Resistance:</strong> Favor on Saves and damage reduction against Cold.</li><li><strong>Winter's Reach:</strong> Holds 5 charges, all of which return after a Rest. Expend a charge to Cast @UUID[Compendium.vagabond-rpg.spells.Item.PHrsI0UrnCxQjjSq]{Freeze} or @UUID[Compendium.vagabond-rpg.spells.Item.GvDP0oYm6yPkkb6o]{Frostburn}. If it is broken while empty, it melts into water.</li></ul><p>Value: 15000g</p>",
+    "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+    "quantity": 1,
+    "value": 1500000,
+    "equipped": false,
+    "slots": 1,
+    "category": "relic",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 5,
+      "max": 5
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": "",
+      "damageType": ""
+    },
+    "contents": [],
+    "wealth": 0
+  }
+}

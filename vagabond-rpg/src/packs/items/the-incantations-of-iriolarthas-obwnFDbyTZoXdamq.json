@@ -1,0 +1,38 @@
+{
+  "_id": "obwnFDbyTZoXdamq",
+  "_key": "!items!obwnFDbyTZoXdamq",
+  "name": "The Incantations of Iriolarthas",
+  "folder": "dRTKZJJLwPKruFjb",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "type": "gear",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
+  "system": {
+    "description": "<p><em>Lore: Relic Spellbook</em></p><p><em>Sigil of Iriolarthas, a Netherese lich whose library survived the fall of Ythryn far better than he did.</em></p><p>A heavy spellbook bound in black leather studded with dead, varnished worms, sealed with a gold rune shaped like a candle-flame eye. A spellcaster who spends a Shift studying it adds the following Spells to those they know, if they don't already: Animate, Confuse, Control, Disintegrate, Portal, and Raise.</p><p>It has the following Powers:</p><ul><li><strong>Iriolarthas's Curriculum:</strong> A Caster who studies it for a Shift adds @UUID[Compendium.vagabond-rpg.spells.Item.wD2EtvR22pIWlMqU]{Animate}, @UUID[Compendium.vagabond-rpg.spells.Item.tYMBjaX72424BZPW]{Confuse}, @UUID[Compendium.vagabond-rpg.spells.Item.pI3ezwxfgAetuy3w]{Control}, @UUID[Compendium.vagabond-rpg.spells.Item.plviZS0VEOdMNLkC]{Disintegrate}, @UUID[Compendium.vagabond-rpg.spells.Item.Yn7Qxij2UYVw5Djl]{Portal} and @UUID[Compendium.vagabond-rpg.spells.Item.lFubEdpr4iGi8BMw]{Raise} to the Spells they know, if they can Cast at that Rank.</li></ul><p>Value: 1500g</p>",
+    "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+    "quantity": 1,
+    "value": 150000,
+    "equipped": false,
+    "slots": 1,
+    "category": "relic",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": "",
+      "damageType": ""
+    },
+    "contents": [],
+    "wealth": 0
+  }
+}

@@ -1,0 +1,414 @@
+{
+  "_id": "ovmbxX7KTHeqV71a",
+  "_key": "!actors!ovmbxX7KTHeqV71a",
+  "name": "High Illusionist Ajamar",
+  "type": "npc",
+  "img": "modules/icewind-dale-vagabond-rpg/assets/tokens/Archmage.webp",
+  "system": {
+    "hd": 9,
+    "tl": 7.1,
+    "attributes": {
+      "hp": {
+        "value": 40,
+        "max": 40
+      },
+      "armor": 2,
+      "armorTag": "as Chain",
+      "morale": 8,
+      "speed": {
+        "value": 30,
+        "types": ""
+      },
+      "travel": 0
+    },
+    "cargo": {
+      "max": 0
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "humanlike",
+      "subtype": "",
+      "zone": "backline",
+      "appearing": "1",
+      "senses": "",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion), Chapter 7: Doom of Ythryn",
+      "description": "<p><em>One of Iriolarthas's eight apprentices.</em></p><p><strong>Stat block:</strong> Archmage</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "L2FaX8NMqDMUbFew",
+      "name": "Combo",
+      "type": "action",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
+      "system": {
+        "description": "<p>2 of any Cast Actions it can take</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 0,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ovmbxX7KTHeqV71a.L2FaX8NMqDMUbFew"
+    },
+    {
+      "_id": "ZYeAhhTR70JRqT36",
+      "name": "Lightning Bolt",
+      "type": "action",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
+      "system": {
+        "description": "<p>10 (3d6) and Dazed (Cd4, or Cd6 if failed as a 1)</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, 30-foot Line | Reflex",
+        "damage": "3d6",
+        "average": 10,
+        "damageType": "shock",
+        "save": "reflex",
+        "recharge": "2/Day",
+        "sort": 1,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ovmbxX7KTHeqV71a.ZYeAhhTR70JRqT36"
+    },
+    {
+      "_id": "WYy1RPQCJZsHR965",
+      "name": "Fireball",
+      "type": "action",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
+      "system": {
+        "description": "<p>10 (3d6) and Burning (Cd4, or Cd6 if failed as a 1)</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, 20-foot Sphere | Reflex",
+        "damage": "3d6",
+        "average": 10,
+        "damageType": "fire",
+        "save": "reflex",
+        "recharge": "2/Day",
+        "sort": 2,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ovmbxX7KTHeqV71a.WYy1RPQCJZsHR965"
+    },
+    {
+      "_id": "paBJpftZuPMkrKBa",
+      "name": "Blizzard",
+      "type": "action",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
+      "system": {
+        "description": "<p>10 (3d6) filling the area with snow (Difficult Terrain)</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, 20-foot Sphere | Endure | Focus",
+        "damage": "3d6",
+        "average": 10,
+        "damageType": "cold",
+        "save": "endure",
+        "recharge": "2/Day",
+        "sort": 3,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ovmbxX7KTHeqV71a.paBJpftZuPMkrKBa"
+    },
+    {
+      "_id": "tOcsllBggvosrnkJ",
+      "name": "Firebolt",
+      "type": "action",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
+      "system": {
+        "description": "<p>7 (2d6) and Burning (Cd4, or Cd6 if failed as a 1)</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Remote | Reflex",
+        "damage": "2d6",
+        "average": 7,
+        "damageType": "fire",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 4,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ovmbxX7KTHeqV71a.tOcsllBggvosrnkJ"
+    },
+    {
+      "_id": "ioX2mN1HNqfs4EFb",
+      "name": "Ice Knife",
+      "type": "action",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
+      "system": {
+        "description": "<p>7 (2d6) and its Speed is reduced by half for the duration</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Bolt | Reflex | Focus",
+        "damage": "2d6",
+        "average": 7,
+        "damageType": "cold",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 5,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ovmbxX7KTHeqV71a.ioX2mN1HNqfs4EFb"
+    },
+    {
+      "_id": "5x7F2iMY78YGKiOO",
+      "name": "Zap",
+      "type": "action",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
+      "system": {
+        "description": "<p>7 (2d6) and Dazed (Cd4, or Cd6 if failed as a 1)</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Bolt | Reflex",
+        "damage": "2d6",
+        "average": 7,
+        "damageType": "shock",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 6,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ovmbxX7KTHeqV71a.5x7F2iMY78YGKiOO"
+    },
+    {
+      "_id": "2oEydYwUFYEZ8N05",
+      "name": "Magic Ward II",
+      "type": "action",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
+      "system": {
+        "description": "<p>The first time it is unwillingly affected by a Spell each Round, the Caster must spend an extra 2 Mana to affect it.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 7,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ovmbxX7KTHeqV71a.2oEydYwUFYEZ8N05"
+    }
+  ],
+  "effects": [],
+  "folder": "kBNgipSrjvRR8i39",
+  "sort": 2900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "icewind-dale-vagabond-rpg": {
+      "namedNpc": true,
+      "statBlock": "Archmage",
+      "chapter": "Chapter 7: Doom of Ythryn"
+    }
+  },
+  "prototypeToken": {
+    "name": "High Illusionist Ajamar",
+    "displayName": 30,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/icewind-dale-vagabond-rpg/assets/tokens/Archmage.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  }
+}

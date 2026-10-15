@@ -1,0 +1,38 @@
+{
+  "_id": "XV6F2tgU56KXBFMd",
+  "_key": "!items!XV6F2tgU56KXBFMd",
+  "name": "Potion of Resistance",
+  "folder": "OYFK8ISLhQB6iPg5",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "type": "gear",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
+  "system": {
+    "description": "<p>The liquid shifts colour depending on which element it was brewed against.</p><p>For 1 Hour, the consumer gains Favor on Saves and damage reduction against one damage type, chosen when the potion is brewed.</p>",
+    "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+    "quantity": 1,
+    "value": 2500,
+    "equipped": false,
+    "slots": 1,
+    "category": "alchemical",
+    "alchemicalType": "potion",
+    "consumable": true,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": "",
+      "damageType": ""
+    },
+    "contents": [],
+    "wealth": 0
+  }
+}

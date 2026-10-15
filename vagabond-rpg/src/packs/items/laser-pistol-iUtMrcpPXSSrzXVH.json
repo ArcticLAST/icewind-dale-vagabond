@@ -1,0 +1,45 @@
+{
+  "_id": "iUtMrcpPXSSrzXVH",
+  "_key": "!items!iUtMrcpPXSSrzXVH",
+  "name": "Laser Pistol",
+  "folder": "jHOB7Xle8qhC5Lqp",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "type": "weapon",
+  "img": "systems/vagabond-rpg/assets/icons/broadsword.svg",
+  "system": {
+    "description": "<p><em>Lore: Relic Pistol</em></p><p>Salvage from the Id Ascendant. Nobody in Icewind Dale has the faintest idea what it is. It has the following Powers:</p><ul><li><strong>Energy Bolt:</strong> Requires a charged Energy Cell. Firing expends 1 of the cell's 5 charges, and no one in the Dale can refill it.</li></ul><p>Value: 2000g</p>",
+    "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+    "quantity": 1,
+    "slots": 1,
+    "value": 200000,
+    "equipped": false,
+    "types": {
+      "melee": false,
+      "brawl": false,
+      "finesse": false,
+      "ranged": true
+    },
+    "properties": {
+      "cleave": false,
+      "defense": false,
+      "grapple": false,
+      "keen": true,
+      "long": false,
+      "thrown": false,
+      "vicious": false
+    },
+    "range": "far",
+    "grip": "1h",
+    "damage": "d4",
+    "twoHanded": false,
+    "metal": "",
+    "bonus": 0,
+    "crude": false,
+    "relic": true
+  }
+}

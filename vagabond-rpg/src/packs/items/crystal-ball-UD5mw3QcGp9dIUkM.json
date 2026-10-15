@@ -1,0 +1,38 @@
+{
+  "_id": "UD5mw3QcGp9dIUkM",
+  "_key": "!items!UD5mw3QcGp9dIUkM",
+  "name": "Crystal Ball",
+  "folder": "HRAT1cqrSPRgle2E",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "type": "gear",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
+  "system": {
+    "description": "<p><em>Lore: Relic Orb (Bound)</em></p><p>Nass Lantomir wanted one badly enough to die over it. It has the following Powers:</p><ul><li><strong>Scrying:</strong> Gaze into it to Scry on a Being or place you name, seeing and hearing it as though standing there. An unwilling Being resists with [Will], and knows it is being watched on a pass.</li><li><strong>True-Seeing:</strong> While Scrying, the viewer sees through illusions, invisibility and disguises within the scried area.</li></ul><p>Value: 50000g</p>",
+    "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+    "quantity": 1,
+    "value": 5000000,
+    "equipped": false,
+    "slots": 1,
+    "category": "relic",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": "",
+      "damageType": ""
+    },
+    "contents": [],
+    "wealth": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "_id": "t4IxtXoJ7BSRF7Wl",
+  "_key": "!items!t4IxtXoJ7BSRF7Wl",
+  "name": "Cauldron of Plenty",
+  "folder": "HRAT1cqrSPRgle2E",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "type": "gear",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
+  "system": {
+    "description": "<p><em>Lore: Relic Cauldron</em></p><p><em>Carved with reposing satyrs and nymphs holding ladles, the cauldron has fed more than one desperate Ten-Towns supper table through the darkest weeks of the Everlasting Rime.</em></p><p>A 4-foot copper cauldron on five clawed feet, holding up to 30 gallons. Stir water in it for 1 Minute and it becomes a hearty stew - one nourishing meal per gallon for up to 4 people. The stew stays hot inside the cauldron and cools naturally once removed; the cauldron itself never gets hot to the touch.</p><p>Usable 3 times, refreshing after a Rest.</p><p>It has the following Powers:</p><ul><li><strong>Endless Stew:</strong> Stir water in it for 1 Minute to fill it with hearty stew: one nourishing meal for up to 12 Beings. Usable 3 times, refreshing after a Rest.</li></ul><p>Value: 1500g</p>",
+    "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+    "quantity": 1,
+    "value": 150000,
+    "equipped": false,
+    "slots": 3,
+    "category": "relic",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": "",
+      "damageType": ""
+    },
+    "contents": [],
+    "wealth": 0
+  }
+}

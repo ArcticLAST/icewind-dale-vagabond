@@ -1,0 +1,38 @@
+{
+  "_id": "UlpIDnClFWHsAQX5",
+  "_key": "!items!UlpIDnClFWHsAQX5",
+  "name": "Bag of Tricks (Gray)",
+  "folder": "HRAT1cqrSPRgle2E",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "type": "gear",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
+  "system": {
+    "description": "<p><em>Lore: Relic Bag</em></p><p>Confiscated from Dzaan by the Easthaven militia and never entered into evidence. It has the following Powers:</p><ul><li><strong>Menagerie:</strong> Reach in and pull out a fuzzy object, which becomes a random Beast that obeys you. Three uses, which return after a Rest.</li></ul><p>Value: 3000g</p>",
+    "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+    "quantity": 1,
+    "value": 300000,
+    "equipped": false,
+    "slots": 1,
+    "category": "relic",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 3,
+      "max": 3
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": "",
+      "damageType": ""
+    },
+    "contents": [],
+    "wealth": 0
+  }
+}

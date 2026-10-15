@@ -1,0 +1,38 @@
+{
+  "_id": "9B9qs2K6s3oP6i9h",
+  "_key": "!items!9B9qs2K6s3oP6i9h",
+  "name": "Shield Guardian Amulet",
+  "folder": "HRAT1cqrSPRgle2E",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "type": "gear",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
+  "system": {
+    "description": "<p><em>Lore: Relic Amulet (Bound)</em></p><p>Somewhere out in the ice, a construct is still waiting for whoever wears this. It has the following Powers:</p><ul><li><strong>Guardian Bond:</strong> The bonded Shield Guardian obeys your spoken commands, tries to stay within Far of you, and takes half of any damage dealt to you while it is within Close.</li><li><strong>Telepathy:</strong> Telepathy (Far) with the bonded Shield Guardian only, which does not require Focus.</li></ul><p>Value: 10000g</p>",
+    "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+    "quantity": 1,
+    "value": 1000000,
+    "equipped": false,
+    "slots": 1,
+    "category": "relic",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": "",
+      "damageType": ""
+    },
+    "contents": [],
+    "wealth": 0
+  }
+}

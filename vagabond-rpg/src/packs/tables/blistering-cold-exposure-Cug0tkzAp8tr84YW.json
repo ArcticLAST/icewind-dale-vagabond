@@ -1,0 +1,138 @@
+{
+  "name": "Blistering Cold — Exposure",
+  "formula": "1d6",
+  "description": "Roll for each Being that ends a watch outdoors without cold-weather gear, shelter, or a source of warmth. Anything Immune to Cold ignores this entirely.",
+  "folder": null,
+  "img": "modules/icewind-dale-vagabond-rpg/assets/item-icons/minerals.png",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "type": "text",
+      "name": "Shivering",
+      "description": "Hinder on the next Check made this watch.",
+      "weight": 2,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "_id": "nzadZIOMW8V4ERVw",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!Cug0tkzAp8tr84YW.nzadZIOMW8V4ERVw"
+    },
+    {
+      "type": "text",
+      "name": "Numb hands",
+      "description": "Hinder on Attacks until the Being warms up.",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "WGgeOEnsKSEyRf9x",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!Cug0tkzAp8tr84YW.WGgeOEnsKSEyRf9x"
+    },
+    {
+      "type": "text",
+      "name": "Deep chill",
+      "description": "Gain 1 Fatigue.",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "2XKG0Z7AQdaY6hOR",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!Cug0tkzAp8tr84YW.2XKG0Z7AQdaY6hOR"
+    },
+    {
+      "type": "text",
+      "name": "Frostbite",
+      "description": "Gain 1 Fatigue and lose 1d6 HP that can't be healed until warmed.",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "aS45QcVnQItZDbcl",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!Cug0tkzAp8tr84YW.aS45QcVnQItZDbcl"
+    },
+    {
+      "type": "text",
+      "name": "Hypothermia",
+      "description": "Gain 2 Fatigue. At maximum Fatigue the Being falls Unconscious.",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "WEYn61y2azUjFxWA",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!Cug0tkzAp8tr84YW.WEYn61y2azUjFxWA"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_id": "Cug0tkzAp8tr84YW",
+  "_key": "!tables!Cug0tkzAp8tr84YW"
+}

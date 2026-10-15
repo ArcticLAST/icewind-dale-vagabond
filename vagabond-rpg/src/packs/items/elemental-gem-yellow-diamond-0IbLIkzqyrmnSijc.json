@@ -1,0 +1,38 @@
+{
+  "_id": "0IbLIkzqyrmnSijc",
+  "_key": "!items!0IbLIkzqyrmnSijc",
+  "name": "Elemental Gem (Yellow Diamond)",
+  "folder": "HRAT1cqrSPRgle2E",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "type": "gear",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
+  "system": {
+    "description": "<p><em>Lore: Relic Gem (Consumable)</em></p><p>A flawed yellow diamond with something restless behind the facets. It has the following Powers:</p><ul><li><strong>Summon Elemental:</strong> Shatter it to summon a friendly Earth Elemental for 1 Hour.</li></ul><p>Value: 5000g</p>",
+    "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+    "quantity": 1,
+    "value": 500000,
+    "equipped": false,
+    "slots": 1,
+    "category": "relic",
+    "alchemicalType": "",
+    "consumable": true,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": "",
+      "damageType": ""
+    },
+    "contents": [],
+    "wealth": 0
+  }
+}

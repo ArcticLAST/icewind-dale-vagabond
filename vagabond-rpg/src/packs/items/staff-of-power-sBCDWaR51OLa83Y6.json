@@ -1,0 +1,72 @@
+{
+  "_id": "sBCDWaR51OLa83Y6",
+  "_key": "!items!sBCDWaR51OLa83Y6",
+  "name": "Staff of Power",
+  "folder": "TJXiEQwW45323Owm",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [
+    {
+      "_id": "AJfc0qk0RGNQPHF2",
+      "_key": "!items.effects!sBCDWaR51OLa83Y6.AJfc0qk0RGNQPHF2",
+      "name": "(+2) Armor",
+      "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.bonuses.armor",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "flags": {},
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "system": {},
+      "type": "base",
+      "sort": 0
+    }
+  ],
+  "type": "gear",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
+  "system": {
+    "description": "<p><em>Lore: Fabled Relic Staff (Bound)</em></p><p>One of Iriolarthas's own, and still the single most dangerous thing a character can pick up in Ythryn. It has the following Powers:</p><ul><li><strong>(+2) Trinket:</strong> Deals an extra +2 Spell damage.</li><li><strong>(+2) Armor:</strong> +2 bonus to Armor while the staff is held.</li><li><strong>(+2) Protection:</strong> +2 bonus to Saves while the staff is held.</li><li><strong>Force Bolt:</strong> Expend a charge to strike a Being within Far with a bolt of force for 5d6 damage, or swing the staff in melee for an extra 1d6.</li><li><strong>Retributive Strike:</strong> Holds 5 charges, all of which return after a Rest. Break the staff to release its remaining power in a Far Sphere for 16d6 damage, halved by distance. The wielder is destroyed.</li></ul><p>Value: 25000g</p>",
+    "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+    "quantity": 1,
+    "value": 2500000,
+    "equipped": false,
+    "slots": 1,
+    "category": "relic",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 5,
+      "max": 5
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": "",
+      "damageType": ""
+    },
+    "contents": [],
+    "wealth": 0
+  }
+}

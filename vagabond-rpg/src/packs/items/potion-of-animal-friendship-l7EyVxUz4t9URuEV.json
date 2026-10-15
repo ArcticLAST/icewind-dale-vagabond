@@ -1,0 +1,38 @@
+{
+  "_id": "l7EyVxUz4t9URuEV",
+  "_key": "!items!l7EyVxUz4t9URuEV",
+  "name": "Potion of Animal Friendship",
+  "folder": "OYFK8ISLhQB6iPg5",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "type": "gear",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
+  "system": {
+    "description": "<p><span class=\"fontstyle0\">The consumer gains the ability to control a type of Being they can see for 1 Hour, which requires their Focus. Once a Being is chosen, the consumer must make a Will Save. On a pass, the Being is Charmed and under their control for the duration. A Being controlled this way will not obey commands that clearly cause harm to itself. After this time, the Being becomes Hostile. This potion affects Beasts.</span></p>",
+    "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+    "quantity": 1,
+    "value": 2500,
+    "equipped": false,
+    "slots": 1,
+    "category": "alchemical",
+    "alchemicalType": "potion",
+    "consumable": true,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": "",
+      "damageType": ""
+    },
+    "contents": [],
+    "wealth": 0
+  }
+}

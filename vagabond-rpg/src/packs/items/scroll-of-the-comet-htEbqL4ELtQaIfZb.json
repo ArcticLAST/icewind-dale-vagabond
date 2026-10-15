@@ -1,0 +1,38 @@
+{
+  "_id": "htEbqL4ELtQaIfZb",
+  "_key": "!items!htEbqL4ELtQaIfZb",
+  "name": "Scroll of the Comet",
+  "folder": "3R60As4K1hdTr0d2",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "type": "gear",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
+  "system": {
+    "description": "<p><em>Lore: Fabled Relic Scroll (Consumable)</em></p><p><em>Netherese archmages used comet-calling as a punchline to arguments. It's unclear whether they were joking.</em></p><p>Read this scroll as an Action while outdoors (or it's wasted) to bring a comet down on a point you can see within 1 Mile. It carves a 50-foot-deep, 500-foot-radius crater. Everything in that radius must pass [Reflex] or take 100 (30d10) damage, or half as much on a pass. All structures in the crater are destroyed, along with any unworn, unheld, nonmagical Objects.</p><p>It has the following Powers:</p><ul><li><strong>Inscribed Casting:</strong> Read it as an Action while outdoors to call a comet down on a point within 1 Mile, carving a 500-foot-radius crater. Everything in the radius must pass [Reflex] or take catastrophic damage. Indoors, the scroll is simply wasted. Consumed either way.</li></ul><p>Value: 250000g</p>",
+    "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+    "quantity": 1,
+    "value": 25000000,
+    "equipped": false,
+    "slots": 1,
+    "category": "relic",
+    "alchemicalType": "",
+    "consumable": true,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": "",
+      "damageType": ""
+    },
+    "contents": [],
+    "wealth": 0
+  }
+}

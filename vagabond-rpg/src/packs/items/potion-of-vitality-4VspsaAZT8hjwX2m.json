@@ -1,0 +1,38 @@
+{
+  "_id": "4VspsaAZT8hjwX2m",
+  "_key": "!items!4VspsaAZT8hjwX2m",
+  "name": "Potion of Vitality",
+  "folder": "OYFK8ISLhQB6iPg5",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "type": "gear",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
+  "system": {
+    "description": "<p>A clear red liquid that pulses gently, like something with a heartbeat.</p><p>The consumer's Fatigue is removed, and they regain the full benefit of a Rest. For the next 24 Hours they regain the maximum result on any healing die rolled for them.</p>",
+    "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+    "quantity": 1,
+    "value": 25000,
+    "equipped": false,
+    "slots": 1,
+    "category": "alchemical",
+    "alchemicalType": "potion",
+    "consumable": true,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": "",
+      "damageType": ""
+    },
+    "contents": [],
+    "wealth": 0
+  }
+}

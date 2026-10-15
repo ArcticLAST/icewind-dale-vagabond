@@ -1,0 +1,38 @@
+{
+  "_id": "sJSbHbTTZ7A6mem8",
+  "_key": "!items!sJSbHbTTZ7A6mem8",
+  "name": "Scroll of Tarrasque Summoning",
+  "folder": "3R60As4K1hdTr0d2",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "type": "gear",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
+  "system": {
+    "description": "<p><em>Lore: Fabled Relic Scroll (Consumable)</em></p><p><em>No one has ever found a good reason to use this scroll on purpose. That has never stopped anyone from keeping one around, just in case a reason arrives.</em></p><p>Read this scroll as an Action to summon the Tarrasque in an unoccupied space you can see within 1 Mile. It disappears when reduced to 0 HP, and is hostile to everything but itself - including you.</p><p>It has the following Powers:</p><ul><li><strong>Inscribed Casting:</strong> Read it as an Action to summon the Tarrasque in an unoccupied space you can see within 1 Mile. It is hostile to everything, obeys no one, and vanishes at 0 HP. The scroll is consumed.</li></ul><p>Value: 500000g</p>",
+    "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+    "quantity": 1,
+    "value": 50000000,
+    "equipped": false,
+    "slots": 1,
+    "category": "relic",
+    "alchemicalType": "",
+    "consumable": true,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": "",
+      "damageType": ""
+    },
+    "contents": [],
+    "wealth": 0
+  }
+}

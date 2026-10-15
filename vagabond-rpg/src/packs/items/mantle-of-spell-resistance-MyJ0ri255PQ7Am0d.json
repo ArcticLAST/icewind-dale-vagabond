@@ -1,0 +1,38 @@
+{
+  "_id": "MyJ0ri255PQ7Am0d",
+  "_key": "!items!MyJ0ri255PQ7Am0d",
+  "name": "Mantle of Spell Resistance",
+  "folder": "HRAT1cqrSPRgle2E",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "type": "gear",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
+  "system": {
+    "description": "<p><em>Lore: Relic Cloak (Bound)</em></p><p>Drakareth wore it, and it is a large part of why Drakareth was a problem. It has the following Powers:</p><ul><li><strong>(+2) Protection:</strong> +2 bonus to Saves against Spells and other magical effects.</li><li><strong>Resistance:</strong> Favor on Saves and damage reduction against magical damage.</li></ul><p>Value: 3500g</p>",
+    "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+    "quantity": 1,
+    "value": 350000,
+    "equipped": false,
+    "slots": 1,
+    "category": "relic",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": "",
+      "damageType": ""
+    },
+    "contents": [],
+    "wealth": 0
+  }
+}

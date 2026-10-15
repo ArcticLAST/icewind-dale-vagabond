@@ -17,3 +17,6 @@ module/packs/** -text -diff -merge
 
 # Windows scripts want CRLF in the working copy
 *.ps1 text eol=crlf
+
+# The vagabond-rpg port: packs are LevelDB build output, assets are binary.
+vagabond-rpg/packs/** -text -diff -merge

@@ -1,0 +1,38 @@
+{
+  "_id": "J7g1bXWwfkDO4bLe",
+  "_key": "!items!J7g1bXWwfkDO4bLe",
+  "name": "Wand of Web",
+  "folder": "TJXiEQwW45323Owm",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "type": "gear",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
+  "system": {
+    "description": "<p><em>Lore: Relic Wand (Bound)</em></p><p>Duergar looted it from a drow caravan and never worked out how to stop it sticking to things. It has the following Powers:</p><ul><li><strong>Webbing:</strong> Holds 3 charges, all of which return after a Rest. Expend a charge to fill a Near Cube with thick webbing: it is Difficult Terrain, and a Being that enters it or starts its Turn in it must pass [Reflex] or be Restrained.</li><li><strong>Entangle:</strong> A Being Restrained by the webs is Vulnerable until it breaks free.</li></ul><p>Value: 2500g</p>",
+    "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+    "quantity": 1,
+    "value": 250000,
+    "equipped": false,
+    "slots": 1,
+    "category": "relic",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 3,
+      "max": 3
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": "",
+      "damageType": ""
+    },
+    "contents": [],
+    "wealth": 0
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Quests — The Main Arc",
+  "folder": null,
+  "pages": [
+    {
+      "name": "Chapters 2–7 at a glance",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<table><thead><tr><th>Chapter</th><th>Goal</th><th>Key figures</th><th>Ends when</th></tr></thead><tbody><tr><td>2 — Icewind Dale</td><td>Explore the Dale, pick up an Arcane Brotherhood patron, find the road to Sunblight.</td><td><em>Vellynne Harpell</em>, <em>Avarice</em>, <em>Dzaan's Simulacrum</em>, <em>Nass Lantomir's Ghost</em></td><td>The party learns Xardorok is building something.</td></tr><tr><td>3 — Sunblight</td><td>Infiltrate the duergar fortress under Sunblight.</td><td><em>Xardorok Sunblight</em>, <em>Grandolpha Muzgardt</em>, <em>Krob</em>, <em>F'yorl</em></td><td>The chardalyn dragon launches — whether or not the party is ready.</td></tr><tr><td>4 — Destruction's Light</td><td>Chase and stop the chardalyn dragon before it levels Ten-Towns.</td><td><em>Chardalyn Dragon</em>, <em>Vellynne Harpell</em></td><td>The dragon is destroyed. Ten-Towns counts its dead.</td></tr><tr><td>5 — Auril's Abode</td><td>Reach Solstice and break one of Auril's three forms.</td><td><em>Auril</em> (three forms), <em>Gunvald Halraggson</em>, <em>Bjornhild Solvigsdottir</em>, <em>Isarr Kronenstrom</em></td><td>Auril is beaten, or the party flees the island.</td></tr><tr><td>6 — Caves of Hunger</td><td>Descend toward the buried city.</td><td><em>Tekeli-li</em>, <em>Yilsebek Dalambra</em>, <em>Hengar Aesnvaard</em>, <em>Mjenir</em></td><td>The party reaches Ythryn.</td></tr><tr><td>7 — Doom of Ythryn</td><td>Explore the fallen Netherese city and deal with the Arch-Astronomer.</td><td><em>Iriolarthas</em>, <em>Scrivenscry</em>, <em>Veneranda</em>, the night hag coven</td><td>The mythallar's fate is decided. Roll credits.</td></tr></tbody></table><h2>Recurring threads</h2><ul><li><strong>The Arcane Brotherhood</strong> — Vellynne, Avarice, Dzaan and Nass Lantomir all want the Codicil of White. Only one can be the party's ally.</li><li><strong>Auril's winter</strong> — the sun does not rise until the campaign says it does. Roll on <em>Weather — The Everlasting Rime</em> each dawn.</li><li><strong>Character secrets</strong> — each PC gets one from Appendix B. <em>Vokarr the Eyebiter</em> and <em>Beldora</em> are built for two of them.</li></ul>",
+        "format": 1
+      },
+      "sort": 0,
+      "_id": "h5vOkquK6q7gxpV9",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!journal.pages!kYFhQx6OnX1skZ29.h5vOkquK6q7gxpV9"
+    }
+  ],
+  "categories": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_id": "kYFhQx6OnX1skZ29",
+  "_key": "!journal!kYFhQx6OnX1skZ29"
+}

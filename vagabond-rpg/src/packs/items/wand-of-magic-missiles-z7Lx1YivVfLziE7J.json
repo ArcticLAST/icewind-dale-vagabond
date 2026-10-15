@@ -1,0 +1,38 @@
+{
+  "_id": "z7Lx1YivVfLziE7J",
+  "_key": "!items!z7Lx1YivVfLziE7J",
+  "name": "Wand of Magic Missiles",
+  "folder": "TJXiEQwW45323Owm",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "type": "gear",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
+  "system": {
+    "description": "<p><em>Lore: Relic Wand</em></p><p>Vellynne Harpell keeps one on her belt and reaches for it more readily than she admits. It has the following Powers:</p><ul><li><strong>Magic Missile:</strong> Holds 3 charges, all of which return after a Rest. Expend a charge to send three darts of force at Beings you can see within Far, dealing 1d4+1 damage each. The darts never miss. Spend up to 3 further charges to send one extra dart each.</li></ul><p>Value: 5000g</p>",
+    "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+    "quantity": 1,
+    "value": 500000,
+    "equipped": false,
+    "slots": 1,
+    "category": "relic",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 3,
+      "max": 3
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": "",
+      "damageType": ""
+    },
+    "contents": [],
+    "wealth": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "_id": "uCnxLh4R4qLYclVy",
+  "_key": "!items!uCnxLh4R4qLYclVy",
+  "name": "Stone of Good Luck",
+  "folder": "HRAT1cqrSPRgle2E",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "type": "gear",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
+  "system": {
+    "description": "<p><em>Lore: Relic Stone (Bound)</em></p><p>A polished agate from the Chain Lightning Stadium, warm in the pocket. It has the following Powers:</p><ul><li><strong>(+1) Protection:</strong> +1 bonus to Saves and to all Checks.</li></ul><p>Value: 1000g</p>",
+    "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+    "quantity": 1,
+    "value": 100000,
+    "equipped": false,
+    "slots": 1,
+    "category": "relic",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": "",
+      "damageType": ""
+    },
+    "contents": [],
+    "wealth": 0
+  }
+}

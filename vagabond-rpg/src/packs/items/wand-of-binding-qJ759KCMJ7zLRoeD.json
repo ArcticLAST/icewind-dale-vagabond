@@ -1,0 +1,38 @@
+{
+  "_id": "qJ759KCMJ7zLRoeD",
+  "_key": "!items!qJ759KCMJ7zLRoeD",
+  "name": "Wand of Binding",
+  "folder": "TJXiEQwW45323Owm",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "type": "gear",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
+  "system": {
+    "description": "<p><em>Lore: Relic Wand (Bound)</em></p><p>Taken from the warden's quarters at Revel's End, where it was used far more often than the paperwork admits. It has the following Powers:</p><ul><li><strong>Binding:</strong> Holds 3 charges, all of which return after a Rest. Expend a charge to Restrain a Being you can see within Near ([Might] negates, repeatable at the end of each of its Turns), or to immediately end a Restrained or Grappling Status on yourself.</li><li><strong>Entangle:</strong> A Being Restrained by the wand is Vulnerable for as long as it stays Restrained.</li></ul><p>Value: 5000g</p>",
+    "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+    "quantity": 1,
+    "value": 500000,
+    "equipped": false,
+    "slots": 1,
+    "category": "relic",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 3,
+      "max": 3
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": "",
+      "damageType": ""
+    },
+    "contents": [],
+    "wealth": 0
+  }
+}

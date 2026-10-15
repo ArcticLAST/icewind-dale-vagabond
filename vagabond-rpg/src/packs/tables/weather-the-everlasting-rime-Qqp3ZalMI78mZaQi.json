@@ -1,0 +1,234 @@
+{
+  "name": "Weather — The Everlasting Rime",
+  "formula": "1d20",
+  "description": "Roll each dawn. The sun does not rise; 'dawn' is only a clock. Any result of 16+ makes travel impossible without shelter.",
+  "folder": null,
+  "img": "modules/icewind-dale-vagabond-rpg/assets/item-icons/minerals.png",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "type": "text",
+      "name": "Bitter and clear",
+      "description": "Blistering Cold applies. Visibility is good.",
+      "weight": 4,
+      "range": [
+        1,
+        4
+      ],
+      "drawn": false,
+      "_id": "xfR3I8d7G8HtZfP0",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!Qqp3ZalMI78mZaQi.xfR3I8d7G8HtZfP0"
+    },
+    {
+      "type": "text",
+      "name": "Overcast",
+      "description": "Blistering Cold. Dim light at best, all day.",
+      "weight": 3,
+      "range": [
+        5,
+        7
+      ],
+      "drawn": false,
+      "_id": "z5CSHYuuQYWWpdk3",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!Qqp3ZalMI78mZaQi.z5CSHYuuQYWWpdk3"
+    },
+    {
+      "type": "text",
+      "name": "Light snow",
+      "description": "Blistering Cold. Tracks fade within the hour.",
+      "weight": 3,
+      "range": [
+        8,
+        10
+      ],
+      "drawn": false,
+      "_id": "uSMc4uVlPTqEOoNj",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!Qqp3ZalMI78mZaQi.uSMc4uVlPTqEOoNj"
+    },
+    {
+      "type": "text",
+      "name": "Heavy snowfall",
+      "description": "Difficult Terrain. Hinder on sight-based Checks.",
+      "weight": 2,
+      "range": [
+        11,
+        12
+      ],
+      "drawn": false,
+      "_id": "TJKIDcziSCOD8ZiA",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!Qqp3ZalMI78mZaQi.TJKIDcziSCOD8ZiA"
+    },
+    {
+      "type": "text",
+      "name": "Freezing fog",
+      "description": "Vision reduced to Close. Easy to lose the group.",
+      "weight": 2,
+      "range": [
+        13,
+        14
+      ],
+      "drawn": false,
+      "_id": "msSyHQUjt13ercl1",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!Qqp3ZalMI78mZaQi.msSyHQUjt13ercl1"
+    },
+    {
+      "type": "text",
+      "name": "Ice storm",
+      "description": "Difficult Terrain. Anyone outdoors takes 1d6 Cold per hour.",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "_id": "qAhK5dWPN3jK4IcB",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!Qqp3ZalMI78mZaQi.qAhK5dWPN3jK4IcB"
+    },
+    {
+      "type": "text",
+      "name": "Blizzard",
+      "description": "No travel. Hinder on everything outdoors. Shelter or suffer.",
+      "weight": 2,
+      "range": [
+        16,
+        17
+      ],
+      "drawn": false,
+      "_id": "IhyVw8rVHW5BhL9H",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!Qqp3ZalMI78mZaQi.IhyVw8rVHW5BhL9H"
+    },
+    {
+      "type": "text",
+      "name": "Whiteout",
+      "description": "No travel, no navigation, no visibility past arm's reach.",
+      "weight": 2,
+      "range": [
+        18,
+        19
+      ],
+      "drawn": false,
+      "_id": "SbkszMGhZNX0AHr3",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!Qqp3ZalMI78mZaQi.SbkszMGhZNX0AHr3"
+    },
+    {
+      "type": "text",
+      "name": "Auril's Regard",
+      "description": "A blizzard that behaves like it is looking for someone. It is.",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "_id": "v7Zjor8sINjPcqSH",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!Qqp3ZalMI78mZaQi.v7Zjor8sINjPcqSH"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_id": "Qqp3ZalMI78mZaQi",
+  "_key": "!tables!Qqp3ZalMI78mZaQi"
+}

@@ -1,0 +1,258 @@
+{
+  "name": "Encounters — Reghed Glacier & Sea of Moving Ice",
+  "formula": "1d10",
+  "description": "The high ice. Roll once per watch; on a 1 also roll Weather immediately.",
+  "folder": null,
+  "img": "modules/icewind-dale-vagabond-rpg/assets/item-icons/minerals.png",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "type": "text",
+      "name": "Crevasse",
+      "description": "No creature. [Reflex] or fall 2d6 × 10 feet.",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "oBaIkeBVJalBHqKP",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!lSAYXRas0KPWUfT3.oBaIkeBVJalBHqKP"
+    },
+    {
+      "type": "text",
+      "name": "1d4 × Ice Mephit",
+      "description": "",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "6tmkCBvBWfeL0YvD",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!lSAYXRas0KPWUfT3.6tmkCBvBWfeL0YvD"
+    },
+    {
+      "type": "text",
+      "name": "1d3 × Frost Giant Skeleton",
+      "description": "Left over from an older war.",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "yt1250SMWmhUw2cw",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!lSAYXRas0KPWUfT3.yt1250SMWmhUw2cw"
+    },
+    {
+      "type": "text",
+      "name": "1 × Coldlight Walker",
+      "description": "Auril's cold given a shape.",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "2fXuQyAzNQSETFRy",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!lSAYXRas0KPWUfT3.2fXuQyAzNQSETFRy"
+    },
+    {
+      "type": "text",
+      "name": "2d4 × Seal, or 1d3 × Walrus",
+      "description": "Food, if you can take it.",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "dby77p6nqb9qKZAW",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!lSAYXRas0KPWUfT3.dby77p6nqb9qKZAW"
+    },
+    {
+      "type": "text",
+      "name": "1 × Giant Walrus",
+      "description": "Will not move. You will.",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "LMW3GK9I7IjlOEYl",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!lSAYXRas0KPWUfT3.LMW3GK9I7IjlOEYl"
+    },
+    {
+      "type": "text",
+      "name": "1d2 × Polar Bear",
+      "description": "",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "jPkG8FZaD5oEMqqB",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!lSAYXRas0KPWUfT3.jPkG8FZaD5oEMqqB"
+    },
+    {
+      "type": "text",
+      "name": "1 × Roc",
+      "description": "Circling. It can carry off a Medium creature.",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "bZH2j2bky6wxoLsZ",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!lSAYXRas0KPWUfT3.bZH2j2bky6wxoLsZ"
+    },
+    {
+      "type": "text",
+      "name": "1d3 × Frost Druid",
+      "description": "Auril's converts. Hostile on sight.",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "tE4rRCkRXb3ooHK3",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!lSAYXRas0KPWUfT3.tE4rRCkRXb3ooHK3"
+    },
+    {
+      "type": "text",
+      "name": "1 × Remorhaz",
+      "description": "The glacier's apex predator.",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_id": "DC2hhBLV0rraapFf",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!lSAYXRas0KPWUfT3.DC2hhBLV0rraapFf"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_id": "lSAYXRas0KPWUfT3",
+  "_key": "!tables!lSAYXRas0KPWUfT3"
+}

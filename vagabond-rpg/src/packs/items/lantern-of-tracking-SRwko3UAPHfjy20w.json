@@ -1,0 +1,38 @@
+{
+  "_id": "SRwko3UAPHfjy20w",
+  "_key": "!items!SRwko3UAPHfjy20w",
+  "name": "Lantern of Tracking",
+  "folder": "HRAT1cqrSPRgle2E",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "type": "gear",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
+  "system": {
+    "description": "<p><em>Lore: Relic Lantern</em></p><p><em>A common tool of Ten-Towns militia and monster hunters alike, cheap enough to hand out to every watch post that can't afford a real scout.</em></p><p>A hooded lantern burning 6 Hours on 1 pint of oil, shedding bright light to Near and dim light to Far. Each lantern of tracking is bound to a single Being Type, rolled once when it's found and never changed. While within roughly 300 feet of any Being of that Type, its flame burns bright green - though it doesn't pinpoint a direction or distance.</p><table><tbody><tr><th>d8</th><th>Being Type</th></tr><tr><td>1</td><td>Artificial</td></tr><tr><td>2</td><td>Beast</td></tr><tr><td>3</td><td>Cryptid</td></tr><tr><td>4</td><td>Fae</td></tr><tr><td>5</td><td>Humanlike</td></tr><tr><td>6</td><td>Outer</td></tr><tr><td>7</td><td>Primordial</td></tr><tr><td>8</td><td>Undead</td></tr></tbody></table><p>It has the following Powers:</p><ul><li><strong>Moonlit II:</strong> Sheds bright light to Near and dim light to Far, burning 6 Hours on a pint of oil.</li><li><strong>Tracking:</strong> Its flame burns bright green while within roughly 300 feet of any Being of its bound Type. It gives no direction or distance.</li></ul><p>Value: 200g</p>",
+    "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+    "quantity": 1,
+    "value": 20000,
+    "equipped": false,
+    "slots": 1,
+    "category": "relic",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": "",
+      "damageType": ""
+    },
+    "contents": [],
+    "wealth": 0
+  }
+}

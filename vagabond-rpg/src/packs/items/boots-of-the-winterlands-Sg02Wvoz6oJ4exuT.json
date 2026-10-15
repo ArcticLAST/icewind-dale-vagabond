@@ -1,0 +1,38 @@
+{
+  "_id": "Sg02Wvoz6oJ4exuT",
+  "_key": "!items!Sg02Wvoz6oJ4exuT",
+  "name": "Boots of the Winterlands",
+  "folder": "HRAT1cqrSPRgle2E",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "type": "gear",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
+  "system": {
+    "description": "<p><em>Lore: Relic Boots (Bound)</em></p><p>Hilda's thanks for bringing her children home. It has the following Powers:</p><ul><li><strong>Resistance:</strong> Favor on Saves and damage reduction against Cold; the wearer is unharmed by Blistering Cold.</li><li><strong>Snowstrider:</strong> Ice and deep snow are never Difficult Terrain for the wearer.</li></ul><p>Value: 2500g</p>",
+    "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+    "quantity": 1,
+    "value": 250000,
+    "equipped": false,
+    "slots": 1,
+    "category": "relic",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": "",
+      "damageType": ""
+    },
+    "contents": [],
+    "wealth": 0
+  }
+}

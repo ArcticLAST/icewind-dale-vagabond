@@ -1,0 +1,210 @@
+{
+  "name": "Chwinga Gift",
+  "formula": "1d8",
+  "description": "What a chwinga leaves behind for a party that was kind to it. Appendix C flavour, converted.",
+  "folder": null,
+  "img": "modules/icewind-dale-vagabond-rpg/assets/item-icons/minerals.png",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "type": "text",
+      "name": "A charm of warmth",
+      "description": "Ignore Blistering Cold for 24 hours.",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "whOgg37hOZ2VMWvG",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!2aTa4xRtDTNKyhTB.whOgg37hOZ2VMWvG"
+    },
+    {
+      "type": "text",
+      "name": "A charm of the road",
+      "description": "Your next Save is an automatic pass.",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "YneJ47utIlAURj81",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!2aTa4xRtDTNKyhTB.YneJ47utIlAURj81"
+    },
+    {
+      "type": "text",
+      "name": "A pocketful of berries",
+      "description": "Counts as a day's rations and removes 1 Fatigue.",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "5WiF7n2amgXFBFar",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!2aTa4xRtDTNKyhTB.5WiF7n2amgXFBFar"
+    },
+    {
+      "type": "text",
+      "name": "A carved bone token",
+      "description": "One free reroll, once.",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "ydk2ioFGgrxdFHRu",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!2aTa4xRtDTNKyhTB.ydk2ioFGgrxdFHRu"
+    },
+    {
+      "type": "text",
+      "name": "A frost-flower that never wilts",
+      "description": "Worth 25g to the right buyer, priceless to a chwinga.",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "cm587BM2k9I5Kepl",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!2aTa4xRtDTNKyhTB.cm587BM2k9I5Kepl"
+    },
+    {
+      "type": "text",
+      "name": "Directions",
+      "description": "The chwinga points, insistently, at something worth finding.",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "SLymkz0n8zRKF1UQ",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!2aTa4xRtDTNKyhTB.SLymkz0n8zRKF1UQ"
+    },
+    {
+      "type": "text",
+      "name": "An animal friend",
+      "description": "A local Beast accompanies the party for a day.",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "IqvFa4aD5MPDnFWZ",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!2aTa4xRtDTNKyhTB.IqvFa4aD5MPDnFWZ"
+    },
+    {
+      "type": "text",
+      "name": "It simply follows you",
+      "description": "A chwinga tags along for 1d4 days and helps once, dramatically.",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "z5qXw2D3XWDM2lso",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!2aTa4xRtDTNKyhTB.z5qXw2D3XWDM2lso"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_id": "2aTa4xRtDTNKyhTB",
+  "_key": "!tables!2aTa4xRtDTNKyhTB"
+}

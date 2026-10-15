@@ -1,0 +1,38 @@
+{
+  "_id": "dMVWNj2LOuKrgPOW",
+  "_key": "!items!dMVWNj2LOuKrgPOW",
+  "name": "Abracadabrus",
+  "folder": "HRAT1cqrSPRgle2E",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "type": "gear",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
+  "system": {
+    "description": "<p><em>Lore: Relic Chest</em></p><p><em>An abracadabrus never runs in the same family twice - the ones that survive tend to end up in the hands of merchants clever enough not to ask for soup twice in one day.</em></p><p>A gemstone-studded chest with a 1.5-foot cubic interior. It has 5 charges, all of which return after a Rest. As an Action, touch the closed lid and spend 1 charge while naming one or more nonmagical objects worth 1g or less total - they appear inside, provided they fit and the chest is otherwise empty. Food and drink conjured this way are delicious but spoil after 24 Hours; conjured gems or precious metals crumble to nothing after 1 Minute.</p><p>It has the following Powers:</p><ul><li><strong>Cornucopia:</strong> 5 charges, all of which return after a Rest. Spend a charge to conjure nonmagical items worth up to 1g in total inside the chest - food, drink, rope, kindling. Conjured matter vanishes after a Rest.</li></ul><p>Value: 4000g</p>",
+    "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+    "quantity": 1,
+    "value": 400000,
+    "equipped": false,
+    "slots": 2,
+    "category": "relic",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 5,
+      "max": 5
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": "",
+      "damageType": ""
+    },
+    "contents": [],
+    "wealth": 0
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "_id": "i9Uu2IPWL9UbeSia",
+  "_key": "!items!i9Uu2IPWL9UbeSia",
+  "name": "Trident +2",
+  "folder": "jHOB7Xle8qhC5Lqp",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "type": "weapon",
+  "img": "systems/vagabond-rpg/assets/icons/broadsword.svg",
+  "system": {
+    "description": "<p><em>Lore: Relic Trident</em></p><p>Pried out of a shipwreck frozen into the ice off Solstice. It has the following Powers:</p><ul><li><strong>(+2) Weapon:</strong> Deals an extra +2 damage.</li></ul><p>Value: 1250g</p>",
+    "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+    "quantity": 1,
+    "slots": 1,
+    "value": 125000,
+    "equipped": false,
+    "types": {
+      "melee": true,
+      "brawl": false,
+      "finesse": false,
+      "ranged": false
+    },
+    "properties": {
+      "cleave": false,
+      "defense": false,
+      "grapple": false,
+      "keen": false,
+      "long": false,
+      "thrown": true,
+      "vicious": false
+    },
+    "range": "close",
+    "grip": "v",
+    "damage": "d6",
+    "twoHanded": false,
+    "metal": "",
+    "bonus": 2,
+    "crude": false,
+    "relic": true
+  }
+}

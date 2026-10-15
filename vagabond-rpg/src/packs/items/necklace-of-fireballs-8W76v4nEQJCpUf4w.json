@@ -1,0 +1,38 @@
+{
+  "_id": "8W76v4nEQJCpUf4w",
+  "_key": "!items!8W76v4nEQJCpUf4w",
+  "name": "Necklace of Fireballs",
+  "folder": "HRAT1cqrSPRgle2E",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "type": "gear",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
+  "system": {
+    "description": "<p><em>Lore: Relic Necklace (Consumable)</em></p><p>Five beads on a chain, each one a small argument waiting to happen. It has the following Powers:</p><ul><li><strong>Fireball Beads:</strong> Detach a bead and throw it up to Far: it detonates for 3d6 Fire damage in a Near Sphere ([Reflex] to reduce). Multiple beads can be thrown at once, adding 1d6 each.</li></ul><p>Value: 4000g</p>",
+    "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+    "quantity": 1,
+    "value": 400000,
+    "equipped": false,
+    "slots": 1,
+    "category": "relic",
+    "alchemicalType": "",
+    "consumable": true,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 5,
+      "max": 5
+    },
+    "roll": {
+      "formula": "3d6",
+      "type": "damage",
+      "save": "reflex",
+      "damageType": "fire"
+    },
+    "contents": [],
+    "wealth": 0
+  }
+}

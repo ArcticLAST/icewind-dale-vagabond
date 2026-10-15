@@ -1,0 +1,282 @@
+{
+  "_id": "xgFaGSeyI9TpafOn",
+  "_key": "!actors!xgFaGSeyI9TpafOn",
+  "name": "Vlax Brawnanvil",
+  "type": "npc",
+  "img": "modules/icewind-dale-vagabond-rpg/assets/tokens/Ghost.webp",
+  "system": {
+    "hd": 10,
+    "tl": 3.8,
+    "attributes": {
+      "hp": {
+        "value": 45,
+        "max": 45
+      },
+      "armor": 4,
+      "armorTag": "as (+1) Plate",
+      "morale": 12,
+      "speed": {
+        "value": 0,
+        "types": "Fly, Phase"
+      },
+      "travel": 0
+    },
+    "cargo": {
+      "max": 0
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "undead",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "1",
+      "senses": "Darksight",
+      "immune": "Acid, Cold, Fire, Poison, Shock; Physical from non-Relics",
+      "weak": "Silver",
+      "statusImmunities": "Charmed, Fatigued, Paralyzed, Prone, Sickened",
+      "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion), Chapter 2: Icewind Dale",
+      "description": "<p><em>Dwarf spirit.</em></p><p><strong>Stat block:</strong> Ghost</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "xarUyRBpWZWMuM4u",
+      "name": "Chill Touch",
+      "type": "action",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
+      "system": {
+        "description": "<p>3 (1d6) and +1 Fatigue</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Touch | Endure",
+        "damage": "1d6",
+        "average": 3,
+        "damageType": "cold",
+        "save": "endure",
+        "recharge": "",
+        "sort": 0,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!xgFaGSeyI9TpafOn.xarUyRBpWZWMuM4u"
+    },
+    {
+      "_id": "eAV4bOFEhitjG97T",
+      "name": "Possession",
+      "type": "action",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
+      "system": {
+        "description": "<p>This Being gains control of the Target while it is alive, unless forced out by an effect that turns Undead or dispels magic</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Remote | Will",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "will",
+        "recharge": "Recharge Cd6",
+        "sort": 1,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!xgFaGSeyI9TpafOn.eAV4bOFEhitjG97T"
+    },
+    {
+      "_id": "H13434z8KZkvM3TV",
+      "name": "Aging Terror II",
+      "type": "action",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
+      "system": {
+        "description": "<p>[Enemies' first time seeing it and on their Turns | Will]: Frightened (Cd6) and aged 10 (d20) years.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 2,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!xgFaGSeyI9TpafOn.H13434z8KZkvM3TV"
+    },
+    {
+      "_id": "ANYfgjLZxcVDBocT",
+      "name": "Nightwalker",
+      "type": "action",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
+      "system": {
+        "description": "<p>Can’t Move or Target over lines of salt or in areas illuminated by Sunlight. It is Incapacitated and Burning (d8) while in Sunlight.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 3,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!xgFaGSeyI9TpafOn.ANYfgjLZxcVDBocT"
+    }
+  ],
+  "effects": [],
+  "folder": "HOFt9lKTqVzEvxmk",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "icewind-dale-vagabond-rpg": {
+      "namedNpc": true,
+      "statBlock": "Ghost",
+      "chapter": "Chapter 2: Icewind Dale"
+    }
+  },
+  "prototypeToken": {
+    "name": "Vlax Brawnanvil",
+    "displayName": 30,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/icewind-dale-vagabond-rpg/assets/tokens/Ghost.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 0,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "_id": "05bEDJCkyx5LIn42",
+  "_key": "!items!05bEDJCkyx5LIn42",
+  "name": "Potion of Longevity",
+  "folder": "OYFK8ISLhQB6iPg5",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "type": "gear",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
+  "system": {
+    "description": "<p>Amber, with a swirl of gold that never settles.</p><p>The consumer's physical age is reduced by 1d6 + 6 years, to a minimum of 13. Each potion after the first carries a cumulative 10% chance of ageing them by the same amount instead.</p>",
+    "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+    "quantity": 1,
+    "value": 50000,
+    "equipped": false,
+    "slots": 1,
+    "category": "alchemical",
+    "alchemicalType": "potion",
+    "consumable": true,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": "",
+      "damageType": ""
+    },
+    "contents": [],
+    "wealth": 0
+  }
+}

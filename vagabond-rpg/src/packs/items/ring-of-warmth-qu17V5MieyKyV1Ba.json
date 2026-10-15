@@ -1,0 +1,38 @@
+{
+  "_id": "qu17V5MieyKyV1Ba",
+  "_key": "!items!qu17V5MieyKyV1Ba",
+  "name": "Ring of Warmth",
+  "folder": "TJXiEQwW45323Owm",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "type": "gear",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
+  "system": {
+    "description": "<p><em>Lore: Relic Ring (Bound)</em></p><p>Worth more than gold on the Eastside of Termalaine, and everybody there knows it. It has the following Powers:</p><ul><li><strong>Resistance:</strong> Favor on Saves and damage reduction against Cold. The wearer is unharmed by Blistering Cold.</li></ul><p>Value: 2500g</p>",
+    "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+    "quantity": 1,
+    "value": 250000,
+    "equipped": false,
+    "slots": 1,
+    "category": "relic",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": "",
+      "damageType": ""
+    },
+    "contents": [],
+    "wealth": 0
+  }
+}

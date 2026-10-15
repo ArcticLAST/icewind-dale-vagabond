@@ -1,0 +1,282 @@
+{
+  "name": "Encounters — Ten-Towns & the Lakes",
+  "formula": "1d12",
+  "description": "Roll once per watch when travelling between towns or along the lakeshores. Most results are people, not monsters — Ten-Towns is inhabited.",
+  "folder": null,
+  "img": "modules/icewind-dale-vagabond-rpg/assets/item-icons/minerals.png",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "type": "text",
+      "name": "Nothing",
+      "description": "A cold, empty stretch of road. Roll a Weather check instead.",
+      "weight": 2,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "_id": "45Qe7cbZiIixYzsv",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!TnOpXyRjHd8h5mqO.45Qe7cbZiIixYzsv"
+    },
+    {
+      "type": "text",
+      "name": "2d4 × Wolf",
+      "description": "Hungry, and bold about it.",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "se5w4K4UBFYUBP5c",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!TnOpXyRjHd8h5mqO.se5w4K4UBFYUBP5c"
+    },
+    {
+      "type": "text",
+      "name": "1d4+1 × Bandit led by 1 × Bandit Captain",
+      "description": "Desperate rather than cruel. Will negotiate.",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "lbYnXeva7XdpDq9M",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!TnOpXyRjHd8h5mqO.lbYnXeva7XdpDq9M"
+    },
+    {
+      "type": "text",
+      "name": "2d6 × Tribal Warrior",
+      "description": "Reghed hunters. Neutral unless provoked.",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "IdOBgA9aze5uH9cf",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!TnOpXyRjHd8h5mqO.IdOBgA9aze5uH9cf"
+    },
+    {
+      "type": "text",
+      "name": "1 × Crag Cat",
+      "description": "Stalks the party for a full watch before striking.",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "S81KJ9vvGp0sntzp",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!TnOpXyRjHd8h5mqO.S81KJ9vvGp0sntzp"
+    },
+    {
+      "type": "text",
+      "name": "1d3 × Icewind Kobold",
+      "description": "Scouts from Termalaine. Talkative if not attacked.",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "m6JwPmwk9T4vlTba",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!TnOpXyRjHd8h5mqO.m6JwPmwk9T4vlTba"
+    },
+    {
+      "type": "text",
+      "name": "1 × Yeti",
+      "description": "Drawn down from Kelvin's Cairn by hunger.",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "ih3JUE8OAfzfgmzo",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!TnOpXyRjHd8h5mqO.ih3JUE8OAfzfgmzo"
+    },
+    {
+      "type": "text",
+      "name": "1d4 × Awakened Shrub or 1 × Chwinga",
+      "description": "A nature spirit taking an interest.",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "l6xmjHyNqJd8FKj6",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!TnOpXyRjHd8h5mqO.l6xmjHyNqJd8FKj6"
+    },
+    {
+      "type": "text",
+      "name": "2d4 × Reindeer with 1d2 × Tribal Warrior herders",
+      "description": "",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_id": "Ic5Idel4p8XgiHn8",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!TnOpXyRjHd8h5mqO.Ic5Idel4p8XgiHn8"
+    },
+    {
+      "type": "text",
+      "name": "1 × Verbeeg Marauder",
+      "description": "Raiding a supply sled.",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "_id": "E2LNcNzLAGxMd4Si",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!TnOpXyRjHd8h5mqO.E2LNcNzLAGxMd4Si"
+    },
+    {
+      "type": "text",
+      "name": "1d2 × Chardalyn Berserker",
+      "description": "Only after Chapter 2 begins.",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "_id": "lqYHFCtg20LgsaGc",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!TnOpXyRjHd8h5mqO.lqYHFCtg20LgsaGc"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_id": "TnOpXyRjHd8h5mqO",
+  "_key": "!tables!TnOpXyRjHd8h5mqO"
+}

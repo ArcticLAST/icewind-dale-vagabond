@@ -1,0 +1,38 @@
+{
+  "_id": "0iscOJBvyfTvCMT7",
+  "_key": "!items!0iscOJBvyfTvCMT7",
+  "name": "The Codicil of White",
+  "folder": "dRTKZJJLwPKruFjb",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "type": "gear",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
+  "system": {
+    "description": "<p><em>Lore: Relic Tome</em></p><p><em>Written by Auril's own priesthood as a primer on her worship, its silver-gilt pages describe rites better left un-performed.</em></p><p>A thin, cold-to-the-touch tome bound in white ermine over white pine, sealed with a tarnished silver clasp. While it's in your possession, you have Immune: Cold.</p><p>A spellcaster who spends a Shift studying the Codicil learns the Frostburn Spell (if they don't already know it). Bound within its pages is also a poem, \"Rime of the Frostmaiden\" - an incantation whose true power is tied to a specific place and moment (GM's discretion).</p><p>It has the following Powers:</p><ul><li><strong>Auril's Ward:</strong> While the book is in your possession you are Immune to Cold.</li><li><strong>Rites of the Frostmaiden:</strong> A Caster who studies it for a Shift adds @UUID[Compendium.vagabond-rpg.spells.Item.PHrsI0UrnCxQjjSq]{Freeze} and @UUID[Compendium.vagabond-rpg.spells.Item.GvDP0oYm6yPkkb6o]{Frostburn} to the Spells they know.</li></ul><p>Value: 800g</p>",
+    "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+    "quantity": 1,
+    "value": 80000,
+    "equipped": false,
+    "slots": 1,
+    "category": "relic",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": "",
+      "damageType": ""
+    },
+    "contents": [],
+    "wealth": 0
+  }
+}

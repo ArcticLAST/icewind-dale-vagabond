@@ -1,0 +1,258 @@
+{
+  "name": "Encounters — Ythryn",
+  "formula": "1d10",
+  "description": "Chapter 7. The ruined Netherese city. Everything here is a construct, an undead, or a mistake.",
+  "folder": null,
+  "img": "modules/icewind-dale-vagabond-rpg/assets/item-icons/minerals.png",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "type": "text",
+      "name": "Eerie quiet",
+      "description": "A Netherese enchantment flickers and dies nearby.",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "N0DbpnyR2kwIYneY",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!JkuuX4UL6snEjjxS.N0DbpnyR2kwIYneY"
+    },
+    {
+      "type": "text",
+      "name": "1d4 × Flying Sword",
+      "description": "",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "a5PFG3VTef7MZAvk",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!JkuuX4UL6snEjjxS.a5PFG3VTef7MZAvk"
+    },
+    {
+      "type": "text",
+      "name": "1d3 × Coldlight Walker",
+      "description": "",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "CrJ2jDGsTCaPGWOf",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!JkuuX4UL6snEjjxS.CrJ2jDGsTCaPGWOf"
+    },
+    {
+      "type": "text",
+      "name": "1d2 × Helmed Horror",
+      "description": "Still guarding a door that no longer exists.",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "lYm0oiktJd8VG1wd",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!JkuuX4UL6snEjjxS.lYm0oiktJd8VG1wd"
+    },
+    {
+      "type": "text",
+      "name": "1d4+2 × Chimeric animals",
+      "description": "Roll on the chimeric creatures at random. Mostly harmless.",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "Cz2hklp0OQkW8vPH",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!JkuuX4UL6snEjjxS.Cz2hklp0OQkW8vPH"
+    },
+    {
+      "type": "text",
+      "name": "1 × Living Bigby's Hand or 1 × Living Demiplane",
+      "description": "A spell that outlived its caster.",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "JGbMdVT8IXc2cI8G",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!JkuuX4UL6snEjjxS.JGbMdVT8IXc2cI8G"
+    },
+    {
+      "type": "text",
+      "name": "1d2 × Demos Magen, or 1 × Galvan Magen",
+      "description": "",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "TwY0y00a5JDRgXtA",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!JkuuX4UL6snEjjxS.TwY0y00a5JDRgXtA"
+    },
+    {
+      "type": "text",
+      "name": "1 × Tomb Tapper",
+      "description": "It hunts magic. The party is full of magic.",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "bTAluLhxQGAg3IxY",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!JkuuX4UL6snEjjxS.bTAluLhxQGAg3IxY"
+    },
+    {
+      "type": "text",
+      "name": "1 × Living Blade of Disaster",
+      "description": "Serious. It cuts through walls to reach you.",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "7hVu2wL6KIp8JkwT",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!JkuuX4UL6snEjjxS.7hVu2wL6KIp8JkwT"
+    },
+    {
+      "type": "text",
+      "name": "1 × Headless Iron Golem",
+      "description": "Following its last order, forever.",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_id": "Gj5ei2RHwxRfr48V",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!JkuuX4UL6snEjjxS.Gj5ei2RHwxRfr48V"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_id": "JkuuX4UL6snEjjxS",
+  "_key": "!tables!JkuuX4UL6snEjjxS"
+}

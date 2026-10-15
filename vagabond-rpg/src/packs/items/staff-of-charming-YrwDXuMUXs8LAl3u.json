@@ -1,0 +1,38 @@
+{
+  "_id": "YrwDXuMUXs8LAl3u",
+  "_key": "!items!YrwDXuMUXs8LAl3u",
+  "name": "Staff of Charming",
+  "folder": "TJXiEQwW45323Owm",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "type": "gear",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
+  "system": {
+    "description": "<p><em>Lore: Relic Staff (Bound)</em></p><p>Recovered from Drakareth's Doom, still faintly warm from whatever the wraith was doing with it. It has the following Powers:</p><ul><li><strong>Charming:</strong> Holds 5 charges, all of which return after a Rest. Expend a charge to Cast @UUID[Compendium.vagabond-rpg.spells.Item.nnzNqTsfrlAO5i37]{Charm}. As a Reaction to an enchantment Spell targeting you, absorb it instead and regain a charge.</li><li><strong>Repulsing:</strong> The wielder has Favor on Saves against the Charmed Status.</li></ul><p>Value: 5000g</p>",
+    "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+    "quantity": 1,
+    "value": 500000,
+    "equipped": false,
+    "slots": 1,
+    "category": "relic",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 5,
+      "max": 5
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": "",
+      "damageType": ""
+    },
+    "contents": [],
+    "wealth": 0
+  }
+}

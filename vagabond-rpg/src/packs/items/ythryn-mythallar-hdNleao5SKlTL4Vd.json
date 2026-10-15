@@ -1,0 +1,38 @@
+{
+  "_id": "hdNleao5SKlTL4Vd",
+  "_key": "!items!hdNleao5SKlTL4Vd",
+  "name": "Ythryn Mythallar",
+  "folder": "dRTKZJJLwPKruFjb",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "type": "gear",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
+  "system": {
+    "description": "<p><em>Lore: Fabled Relic Fixture</em></p><p><em>The beating heart of Ythryn, the floating Netherese city that fell from the sky and never quite finished crashing. Whatever the wizards who built it were reaching for, this was the thing they were reaching with.</em></p><p>An enormous crystal globe in an ornate cradle, shedding bright light to Far and dim light beyond that. This is a fixture, not a carried Item - it doesn't occupy Item Slots and can't be picked up. Up to 8 creatures can Bond to it by meditating near it for a Shift; all Bonded creatures sense whenever it's used, and any use requires the agreement of every Bonded creature.</p><p>While Bonded, a Being within Close can: fly the mythallar (and everything within 500') at Speed 30' as an Action; fully recharge one Relic within Close as an Action (once per Relic, until that Relic's charges return on a Rest); or Cast Control Weather with a 50-Mile radius, requiring no Mana or components as long as they stay within Close for the Casting.</p><p>Touching the globe itself deals 65 (20d6) damage (pass [Endure] for half); Undead have Hinder on this Save. Any Object that touches it - other than a Relic or the cradle - is destroyed instantly.</p><p>It has the following Powers:</p><ul><li><strong>Radiant III:</strong> Sheds bright light to Far and dim light well beyond it.</li><li><strong>Mythallar:</strong> Powers every Netherese enchantment still running in Ythryn. Destroying it ends them all at once - including whatever is holding the city up.</li></ul><p>Value: 0g</p>",
+    "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+    "quantity": 1,
+    "value": 0,
+    "equipped": false,
+    "slots": 0,
+    "category": "relic",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": "",
+      "damageType": ""
+    },
+    "contents": [],
+    "wealth": 0
+  }
+}

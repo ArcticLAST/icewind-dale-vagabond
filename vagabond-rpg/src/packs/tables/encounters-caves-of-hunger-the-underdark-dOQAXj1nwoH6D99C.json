@@ -1,0 +1,234 @@
+{
+  "name": "Encounters — Caves of Hunger & the Underdark",
+  "formula": "1d10",
+  "description": "Chapter 6. Roll once per hour of exploration.",
+  "folder": null,
+  "img": "modules/icewind-dale-vagabond-rpg/assets/item-icons/minerals.png",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "type": "text",
+      "name": "Dripping silence",
+      "description": "Something is watching, but does not act yet.",
+      "weight": 2,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "_id": "xU8bpedmSqxbK4M6",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!dOQAXj1nwoH6D99C.xU8bpedmSqxbK4M6"
+    },
+    {
+      "type": "text",
+      "name": "1d4 × Ice Piercer",
+      "description": "Clinging to the ceiling. Passive [Awareness] to spot.",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "KYeEYoqyH4fYJqqa",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!dOQAXj1nwoH6D99C.KYeEYoqyH4fYJqqa"
+    },
+    {
+      "type": "text",
+      "name": "1d3 × Quaggoth",
+      "description": "",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "Ic11ED32WUzcKoQk",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!dOQAXj1nwoH6D99C.Ic11ED32WUzcKoQk"
+    },
+    {
+      "type": "text",
+      "name": "1 × Nothic",
+      "description": "Wants a secret more than a fight.",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "VdkuANF0FPJQrjWJ",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!dOQAXj1nwoH6D99C.VdkuANF0FPJQrjWJ"
+    },
+    {
+      "type": "text",
+      "name": "1d2 × Gnoll",
+      "description": "Tekeli-li's leavings.",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "juMnpWl9CxeB7i8N",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!dOQAXj1nwoH6D99C.juMnpWl9CxeB7i8N"
+    },
+    {
+      "type": "text",
+      "name": "1d3 × Shadow",
+      "description": "Only in true darkness.",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "tEUFLfrji5TcWhU3",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!dOQAXj1nwoH6D99C.tEUFLfrji5TcWhU3"
+    },
+    {
+      "type": "text",
+      "name": "1 × Grell",
+      "description": "",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "kg1kdfis6ixoFMCK",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!dOQAXj1nwoH6D99C.kg1kdfis6ixoFMCK"
+    },
+    {
+      "type": "text",
+      "name": "1d2 × Drow Elite Warrior",
+      "description": "Scouting ahead of Yilsebek Dalambra.",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "wWyvjmLHYjhbQtH3",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!dOQAXj1nwoH6D99C.wWyvjmLHYjhbQtH3"
+    },
+    {
+      "type": "text",
+      "name": "1 × Spitting Mimic",
+      "description": "Posing as a chest, a door, or a bridge.",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_id": "QjCvKQCY266jarOt",
+      "img": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "vagabond",
+        "systemVersion": "5.4.1",
+        "lastModifiedBy": null
+      },
+      "_key": "!tables.results!dOQAXj1nwoH6D99C.QjCvKQCY266jarOt"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_id": "dOQAXj1nwoH6D99C",
+  "_key": "!tables!dOQAXj1nwoH6D99C"
+}

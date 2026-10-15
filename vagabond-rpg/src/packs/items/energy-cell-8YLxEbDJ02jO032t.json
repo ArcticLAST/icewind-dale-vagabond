@@ -1,0 +1,38 @@
+{
+  "_id": "8YLxEbDJ02jO032t",
+  "_key": "!items!8YLxEbDJ02jO032t",
+  "name": "Energy Cell",
+  "folder": "jHOB7Xle8qhC5Lqp",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "type": "gear",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
+  "system": {
+    "description": "<p><em>Lore: Relic Cell (Consumable)</em></p><p>A flat crystalline wafer holding a charge that no Faerunian magic can replenish. It has the following Powers:</p><ul><li><strong>Charge Store:</strong> Holds 5 charges. Nothing in Faerun can refill it - once spent, it is inert forever.</li></ul><p>Value: 100g</p>",
+    "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+    "quantity": 1,
+    "value": 10000,
+    "equipped": false,
+    "slots": 0,
+    "category": "relic",
+    "alchemicalType": "",
+    "consumable": true,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 5,
+      "max": 5
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": "",
+      "damageType": ""
+    },
+    "contents": [],
+    "wealth": 0
+  }
+}

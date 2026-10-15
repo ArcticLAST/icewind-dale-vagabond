@@ -1,0 +1,38 @@
+{
+  "_id": "sPyJRNGlwjL2HWGI",
+  "_key": "!items!sPyJRNGlwjL2HWGI",
+  "name": "Chime of Opening",
+  "folder": "HRAT1cqrSPRgle2E",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "type": "gear",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
+  "system": {
+    "description": "<p><em>Lore: Relic Chime</em></p><p>A hollow mithral tube that Netherese librarians used instead of keys. It has the following Powers:</p><ul><li><strong>Opening:</strong> Strike the chime to Cast @UUID[Compendium.vagabond-rpg.spells.Item.q52wvmwELTAsuPgM]{Knock} on one object within Near. Three uses, after which the chime cracks and is spent.</li></ul><p>Value: 2500g</p>",
+    "source": "Icewind Dale: Rime of the Frostmaiden (Vagabond conversion)",
+    "quantity": 1,
+    "value": 250000,
+    "equipped": false,
+    "slots": 1,
+    "category": "relic",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 3,
+      "max": 3
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": "",
+      "damageType": ""
+    },
+    "contents": [],
+    "wealth": 0
+  }
+}
