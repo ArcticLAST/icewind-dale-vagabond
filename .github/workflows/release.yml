@@ -1,0 +1,46 @@
+# Publishing a GitHub release tagged vX.Y.Z builds the vagabond-rpg module (vagabond-rpg/) and attaches
+# icewind-dale-vagabond-rpg.json and icewind-dale-vagabond-rpg.zip, so Foundry can install from the manifest URL.
+# The release tag must match "version" in vagabond-rpg/module.json.
+name: Release
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: vagabond-rpg
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check the version matches the tag
+        run: |
+          VERSION=$(jq -r .version module.json)
+          if [ "v$VERSION" != "${GITHUB_REF_NAME}" ]; then
+            echo "Tag ${GITHUB_REF_NAME} does not match module.json version $VERSION" >&2
+            exit 1
+          fi
+
+      - name: Point the download URL at this release
+        run: |
+          URL="https://github.com/${GITHUB_REPOSITORY}/releases/download/${GITHUB_REF_NAME}/icewind-dale-vagabond-rpg.zip"
+          jq --arg url "$URL" '.download = $url' module.json > module.tmp && mv module.tmp module.json
+
+      - name: Build the zip
+        run: |
+          mkdir -p dist/icewind-dale-vagabond-rpg
+          cp -r module.json README.md assets packs dist/icewind-dale-vagabond-rpg/
+          find dist -name LOCK -delete
+          cp module.json dist/icewind-dale-vagabond-rpg.json
+          cd dist && zip -qr icewind-dale-vagabond-rpg.zip icewind-dale-vagabond-rpg
+
+      - name: Attach to the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release upload "${GITHUB_REF_NAME}" dist/icewind-dale-vagabond-rpg.json dist/icewind-dale-vagabond-rpg.zip --clobber

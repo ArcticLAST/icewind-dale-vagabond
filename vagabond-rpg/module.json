@@ -126,5 +126,7 @@
         "tables"
       ]
     }
-  ]
+  ],
+  "manifest": "https://github.com/ArcticLAST/icewind-dale-vagabond/releases/latest/download/icewind-dale-vagabond-rpg.json",
+  "download": "https://github.com/ArcticLAST/icewind-dale-vagabond/releases/latest/download/icewind-dale-vagabond-rpg.zip"
 }
